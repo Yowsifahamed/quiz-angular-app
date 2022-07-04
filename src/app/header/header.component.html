@@ -1,0 +1,18 @@
+<nav class="custom-nav-bar">
+    <ul class="cust-navbar-nav">
+        <ng-container *ngFor="let navigation of headerArray;let i = index">
+            <li class="cust-nav-item" (click)="navigationClickEvent(i)"
+            [ngClass]="{'active-nav': i == selectedArrayIndex}"> {{ navigation.nav }}</li>
+        </ng-container>
+    </ul>    
+</nav>
+
+
+<!-- active-nav cust-nav-item -->
+
+<!-- <li class="cust-nav-item ">🔥 Trending </li>
+<li class="cust-nav-item"> 🌟 Latest </li>
+<li class="cust-nav-item"> 🎬 Entertainment </li>
+<li class="cust-nav-item"> ⚽ Sports </li>
+<li class="cust-nav-item"> ✈️ Travel </li>
+<li class="cust-nav-item"> 💡 Misc </li> -->

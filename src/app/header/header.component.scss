@@ -1,0 +1,25 @@
+.custom-nav-bar{
+    background-color: #c00;
+    text-align: center;
+
+    .cust-navbar-nav{
+        list-style-type: none;
+        padding: 10px;
+        .cust-nav-item{
+            display: inline-block;
+            padding: 4px 24px;
+            border-radius: 20px;
+            background-color: #cc0000;
+            margin: 0px 5px 0px 5px;
+            box-shadow: 0 0 5px 1px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .active-nav{  
+            background: #fff !important;
+            color: #c00 !important;
+            font-weight: 500;
+        }
+    }
+}

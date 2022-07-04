@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let data of dashboardData">
+            <div class="col-sm">
+                <img [src]="data.col">
+                {{ data.name  }}
+            </div>
+        </ng-container>
+    </div>
+</div>

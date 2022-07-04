@@ -1,0 +1,41 @@
+{
+    "quizCol" :[
+        {
+            "entertainment" :[
+                {
+                    "col" : "../../assets/dashboard-images/e1.jpg",
+                    "name" : "name 1"
+                },
+                {
+                    "col" : "../../assets/dashboard-images/e1.jpg",
+                    "name" : "name 2"
+                },
+                {
+                    "col" : "../../assets/dashboard-images/e1.jpg",
+                    "name" : "name 3"
+                }
+            ]
+        },
+        {
+            "sports" :[
+                {
+
+                }
+            ]
+        },
+        {
+            "travel" :[
+                {
+
+                }
+            ]
+        },
+        {
+            "misc" :[
+                {
+
+                }
+            ]
+        }
+    ]
+}
