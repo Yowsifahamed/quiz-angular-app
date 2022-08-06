@@ -1,3 +1,34 @@
 <div class="quiz-content">
     <img [src]="getroleDetails?.quiz_start_image" alt="">
+    <header class="header">
+        <div class="screen-content">
+            <div class="quiz-start-section" *ngIf="!quizEnabled">
+                <h1 class="quizTitle">The Toughest <span class="ronaldo">Cristiano Ronaldo</span> Quiz!</h1>
+                <h2 class="quizTagline">Everyone loves Ronaldo! But can you outscore #CR7 fans in this quiz?</h2>
+                <button class="startBtn" (click)="startQuiz()">Start the Quiz</button>
+            </div>
+  
+            <p class="quizLoading"></p>
+            <div class="quiz-collection" *ngIf="quizEnabled">
+                <h2 class="questionText">
+                    {{ getroleDetails.quiz_collection[quizIndex].questionMd }}
+                </h2>
+                <div class="questionScore">
+                    <span class="time low" id="time">⏰ {{maxSeconds}}</span>
+                    <span class="points">🏆 {{ maxMicroSeconds }}</span>
+                </div>
+                <ul class="questionOptions" [class.questionDisabled]="nextButtonEnabled"
+                *ngFor="let answersCol of getroleDetails.quiz_collection[quizIndex].answers;let i = index">
+                    <li class="questionOption" (click)="selectedAnswer(i)"
+                    [ngClass]="{ 'rigth-answer' : selectedRigthAnswer && selectedIndex == i , 
+                    'wrong-answer' : !selectedRigthAnswer && selectedIndex == i  }"
+                    [class.disabled]="nextButtonEnabled"
+                    > {{ answersCol }}  </li>
+                </ul>
+                <button class="nextBtn questionOption moveUp-enter-done"*ngIf="nextButtonEnabled">
+                    <div style="text-align: center; flex: 1 1 0%;" (click)="nextQuiz()">Next</div>
+                </button>
+            </div>    
+        </div>
+    </header>
 </div>
