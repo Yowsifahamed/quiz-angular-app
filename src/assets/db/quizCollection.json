@@ -1,40 +1,289 @@
 {
-    "quizCol" :[
+    "quizCol": [
         {
-            "col" : "https://i.imgur.com/0N8jCVel.png",
-            "name" : "⚽ sports"
+            "col": "https://i.imgur.com/0N8jCVel.png",
+            "name": "⚽ sports",
+            "type": "sports",
+            "quiz_role": "cristiano-ronaldo",
+            "quiz_start_image": "https://i.imgur.com/1BRHMcG.jpg",
+            "quiz_collection": [
+                {
+                    "questionMd": "*True or False*: Ronaldo donated his bone marrow to help his teammate Carlos Martins' son",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "954e1cd292746d43117edb7e608fa4d65e677b2e",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/HmJWgTP.jpg"
+                },
+                {
+                    "questionMd": "How many tattoos on Ronaldo's body?",
+                    "answers": [
+                        "None",
+                        "One",
+                        "Two",
+                        "Three"
+                    ],
+                    "type": "GENERAL",
+                    "id": "e9d86270c928738dae448adf57c89c8e93501a7e",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/gZy32Hs.jpg"
+                },
+                {
+                    "questionMd": "Ronaldo's first hat-trick for Manchester United was against which club?",
+                    "answers": [
+                        "Sunderland",
+                        "Newcastle United",
+                        "Bolton Wanderers",
+                        "Everton"
+                    ],
+                    "type": "GENERAL",
+                    "id": "f3590e856790e7f686d99ef12eb26f06133ac498",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/6dh3Rgw.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Ronaldo was expelled from school due to his obsession for football",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "caefa3c9906e45aab97dc802845aea26766e5aa5",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/fYqJatF.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Ronaldo's mobile game is called **\"Head’s Up!\"**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "c15f0607efdde90b431f0a2fec1bdd97724d1f0e",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/REBtwZc.jpg"
+                },
+                {
+                    "questionMd": "Ronaldo's famous 'Knuckleball' free-kick against Portsmouth in 2008 left which goalkeeper standing?",
+                    "answers": [
+                        "Asmir Begovic",
+                        "Dean Kiely",
+                        "Shaka Hislop",
+                        "David James"
+                    ],
+                    "type": "GENERAL",
+                    "id": "60befe089862304841cf79a4388a314940458f6d",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/Jvradvt.jpg"
+                },
+                {
+                    "questionMd": "In 2010, Ronaldo re-upped his endorsement contract with which American sportswear company?",
+                    "answers": [
+                        "Reebok",
+                        "Nike",
+                        "Adidas",
+                        "Timberland"
+                    ],
+                    "type": "GENERAL",
+                    "id": "95beab4502ca84af3df65d568ac7f6c8ec161962",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/HQuHd6K.jpg"
+                },
+                {
+                    "questionMd": "When is Ronaldo's birthday?",
+                    "answers": [
+                        "February 5, 1987",
+                        "February 5, 1985",
+                        "February 1, 1985",
+                        "February 3, 1986"
+                    ],
+                    "type": "GENERAL",
+                    "id": "f2aaa0918e517ebdf149ebb17c3a60eefb95af17",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/kDMTCIs.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: When Ronaldo joined Manchester his jersey number was supposed to be **27**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "1d0197ad3a04237b2091fc4cefbe17991059dc70",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/HmJWgTP.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Ronaldo has over **800 million** followers on Instagram",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "30df1ef0d31a5bfd4dd69b8714375a70bd5d0a49",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/gZy32Hs.jpg"
+                },
+                {
+                    "questionMd": "Which player's tackle forced Ronaldo off on a stretcher in the **Euro 2016 final**?",
+                    "answers": [
+                        "Dmitri Payet",
+                        "Paul Pogba",
+                        "Patrice Evra",
+                        "Olivier Giroud"
+                    ],
+                    "type": "GENERAL",
+                    "id": "df856c1bc78861dc53fa2201d268cd80b62e86e6",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/6dh3Rgw.jpg"
+                },
+                {
+                    "questionMd": "What disease does Ronaldo suffer from?",
+                    "answers": [
+                        "Racing Heart",
+                        "Bone Cancer",
+                        "Anxiety",
+                        "Amnesia"
+                    ],
+                    "type": "GENERAL",
+                    "id": "cb1285efecdaec33f8b3156fff68f58af4698b35",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/fYqJatF.jpg"
+                },
+                {
+                    "questionMd": "What was Ronaldo's childhood nickname?",
+                    "answers": [
+                        "Crybaby",
+                        "Dodger",
+                        "Chris",
+                        "Storm"
+                    ],
+                    "type": "GENERAL",
+                    "id": "d01315fbdd4a26a8efa2ec1a0a57775920a1d226",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/REBtwZc.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Ronaldo was tested positive for **COVID-19** in October, 2020",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "4efb2924431079e451215a29d9cab85f9f16e5eb",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/Jvradvt.jpg"
+                },
+                {
+                    "questionMd": "How many goals did Ronaldo score in 2008 when he was awarded **FIFA World of the Year Honor**?",
+                    "answers": [
+                        "36",
+                        "38",
+                        "40",
+                        "42"
+                    ],
+                    "type": "GENERAL",
+                    "id": "13bfcc975b5d2c91abb76153c9acd7b473faba2b",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/kDMTCIs.jpg"
+                },
+                {
+                    "questionMd": "Who was Ronaldo's favorite soccer star when he was kid?",
+                    "answers": [
+                        "Luis Figo",
+                        "Pelé",
+                        "Diego Maradona",
+                        "David Beckham"
+                    ],
+                    "type": "GENERAL",
+                    "id": "2c01c6faa79c1f889235935f66b0c9fed1c74d0a",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/HmJWgTP.jpg"
+                },
+                {
+                    "questionMd": "What is usually Ronaldo's rest day from his rigorous workout regime?",
+                    "answers": [
+                        "Sunday",
+                        "Tuesday",
+                        "Friday",
+                        "Thursday"
+                    ],
+                    "type": "GENERAL",
+                    "id": "6e6456f781657762c10a951a67abd4fa619c687f",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/gZy32Hs.jpg"
+                },
+                {
+                    "questionMd": "Where is Ronaldo's official Instagram ID?",
+                    "answers": [
+                        "ronaldo",
+                        "cr7online",
+                        "realronaldo",
+                        "cristiano"
+                    ],
+                    "type": "GENERAL",
+                    "id": "28c86480529b9969a56b84778b522544d0205555",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/HmJWgTP.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Ronaldo sold his **golden boot** to donate the money to fund schools in Gaza for needy children",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "eba6ad11a22126f9cfe623dc0d49c89b26dce0b1",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/REBtwZc.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Ronaldo has his own museum in Funchal named **CR7 Museum**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "d96d617ae8be535dfe4d3057f7e0e184f73d8f51",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/gZy32Hs.jpg"
+                }
+            ]
         },
         {
-            "col" : "https://i.imgur.com/WP0dHycl.png",
-            "name" : "🎬 entertainment"
+            "col": "https://i.imgur.com/WP0dHycl.png",
+            "name": "🎬 entertainment"
         },
         {
-            "col" : "https://i.imgur.com/9kKznp7l.png",
-            "name" : "🎬 entertainment"
+            "col": "https://i.imgur.com/9kKznp7l.png",
+            "name": "🎬 entertainment"
         },
         {
-            "col" : "https://i.imgur.com/3ICzrlYl.png",
-             "name" : "⚽ sports"
+            "col": "https://i.imgur.com/3ICzrlYl.png",
+            "name": "⚽ sports"
         },
         {
-            "col" : "https://i.imgur.com/OF8gq9Hl.png",
-            "name" : "🎬 entertainment"
+            "col": "https://i.imgur.com/OF8gq9Hl.png",
+            "name": "🎬 entertainment"
         },
         {
-            "col" : "https://i.imgur.com/6qbbEBbl.png",
-             "name" : "⚽ sports"
+            "col": "https://i.imgur.com/6qbbEBbl.png",
+            "name": "⚽ sports"
         },
         {
-            "col" : "https://i.imgur.com/yN1154vl.png",
-             "name" : "⚽ sports"
+            "col": "https://i.imgur.com/yN1154vl.png",
+            "name": "⚽ sports"
         },
         {
-            "col" : "https://i.imgur.com/harVFCSl.png",
-            "name" : "🎬 entertainment"
+            "col": "https://i.imgur.com/harVFCSl.png",
+            "name": "🎬 entertainment"
         },
         {
-            "col" : "https://i.imgur.com/PbA8R6Ll.png",
-            "name" : "🎬 entertainment"
+            "col": "https://i.imgur.com/PbA8R6Ll.png",
+            "name": "🎬 entertainment"
         }
     ]
 }

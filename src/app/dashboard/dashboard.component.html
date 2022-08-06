@@ -5,7 +5,7 @@
                 <div class="img-section">
                     <img [src]="data.col" class="content-img" alt="quiz app" />
                     <div class="image-header">
-                        <span class="category"> {{ data.name }}</span>
+                        <span class="category" (click)="goQuizRoleDetails(data)"> {{ data.name }}</span>
                     </div>
                     <div class="image-footer">
                         <div class="quiz-time">

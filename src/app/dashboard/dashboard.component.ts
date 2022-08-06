@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { DashboardService } from '../service/dashboard.service';
 
 @Component({
@@ -10,7 +11,8 @@ export class DashboardComponent implements OnInit {
   dashboardData: any;
 
   constructor(
-    private dashboardService: DashboardService
+    private dashboardService: DashboardService,
+    private router : Router
   ) { }
 
   ngOnInit(): void {
@@ -20,19 +22,12 @@ export class DashboardComponent implements OnInit {
   loadDashboardData(){
     this.dashboardService.fetchDashboardData().subscribe((res:any)=>{
       this.dashboardData = res['quizCol'];
-      // this.manipulateBasedOnLabel()
     });
-      // this.dashboardService.fetchDashboardData().subscribe((res: any) => 
-      // this.manipulateBasedOnLabel(res,"entertainment")
-      // );
   }
 
-  // manipulateBasedOnLabel(){
-  //   data.quizCol.forEach((element: any) => {
-  //     if (element[quizType]) {
-  //         this.dashboardData = element[quizType];
-  //     }
-  //   });
-  // }
+  goQuizRoleDetails(data:any) {
+    this.router.navigate(['/quiz',data.quiz_role]);
+  }
+
 
 }

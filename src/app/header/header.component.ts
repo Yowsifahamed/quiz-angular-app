@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, NavigationStart, Router } from '@angular/router';
+import { filter } from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -16,8 +18,13 @@ export class HeaderComponent implements OnInit {
   ]
 
   selectedArrayIndex: number = 0;
+  currentRouterLink: string = "";
 
-  constructor() { }
+  constructor(private router: Router) {
+    router.events.pipe(filter(e => e instanceof NavigationStart)).subscribe((e:any) => {
+      this.currentRouterLink = e.url.split("/")[1];
+    });
+  }
 
   ngOnInit(): void {
   }
