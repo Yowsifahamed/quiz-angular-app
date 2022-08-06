@@ -1,41 +1,40 @@
 {
     "quizCol" :[
         {
-            "entertainment" :[
-                {
-                    "col" : "../../assets/dashboard-images/e1.jpg",
-                    "name" : "name 1"
-                },
-                {
-                    "col" : "../../assets/dashboard-images/e1.jpg",
-                    "name" : "name 2"
-                },
-                {
-                    "col" : "../../assets/dashboard-images/e1.jpg",
-                    "name" : "name 3"
-                }
-            ]
+            "col" : "https://i.imgur.com/0N8jCVel.png",
+            "name" : "⚽ sports"
         },
         {
-            "sports" :[
-                {
-
-                }
-            ]
+            "col" : "https://i.imgur.com/WP0dHycl.png",
+            "name" : "🎬 entertainment"
         },
         {
-            "travel" :[
-                {
-
-                }
-            ]
+            "col" : "https://i.imgur.com/9kKznp7l.png",
+            "name" : "🎬 entertainment"
         },
         {
-            "misc" :[
-                {
-
-                }
-            ]
+            "col" : "https://i.imgur.com/3ICzrlYl.png",
+             "name" : "⚽ sports"
+        },
+        {
+            "col" : "https://i.imgur.com/OF8gq9Hl.png",
+            "name" : "🎬 entertainment"
+        },
+        {
+            "col" : "https://i.imgur.com/6qbbEBbl.png",
+             "name" : "⚽ sports"
+        },
+        {
+            "col" : "https://i.imgur.com/yN1154vl.png",
+             "name" : "⚽ sports"
+        },
+        {
+            "col" : "https://i.imgur.com/harVFCSl.png",
+            "name" : "🎬 entertainment"
+        },
+        {
+            "col" : "https://i.imgur.com/PbA8R6Ll.png",
+            "name" : "🎬 entertainment"
         }
     ]
 }

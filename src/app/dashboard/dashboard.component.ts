@@ -18,20 +18,21 @@ export class DashboardComponent implements OnInit {
   }
 
   loadDashboardData(){
-    this.dashboardService.fetchDashboardData().subscribe(data=>{
-      this.manipulateBasedOnLabel(data,"entertainment")
+    this.dashboardService.fetchDashboardData().subscribe((res:any)=>{
+      this.dashboardData = res['quizCol'];
+      // this.manipulateBasedOnLabel()
     });
       // this.dashboardService.fetchDashboardData().subscribe((res: any) => 
       // this.manipulateBasedOnLabel(res,"entertainment")
       // );
   }
 
-  manipulateBasedOnLabel(data:any,quizType:string){
-    data.quizCol.forEach((element: any) => {
-      if (element[quizType]) {
-          this.dashboardData = element[quizType];
-      }
-    });
-  }
+  // manipulateBasedOnLabel(){
+  //   data.quizCol.forEach((element: any) => {
+  //     if (element[quizType]) {
+  //         this.dashboardData = element[quizType];
+  //     }
+  //   });
+  // }
 
 }

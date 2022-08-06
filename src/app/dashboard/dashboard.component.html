@@ -1,9 +1,19 @@
-<div class="container">
+<div class="dashboard">
     <div class="row">
-        <ng-container *ngFor="let data of dashboardData">
-            <div class="col-sm">
-                <img [src]="data.col">
-                {{ data.name  }}
+        <ng-container>
+            <div class="col-sm-12 col-md-4 das-col-sm" *ngFor="let data of dashboardData">
+                <div class="img-section">
+                    <img [src]="data.col" class="content-img" alt="quiz app" />
+                    <div class="image-header">
+                        <span class="category"> {{ data.name }}</span>
+                    </div>
+                    <div class="image-footer">
+                        <div class="quiz-time">
+                            <span class="Home_nowPlaying__2zAVk">👤 8 quizzing now...</span>
+                            <div class="Home_quizDuration__3tH8c">🏷️ 20Q / ⏱️ 8min</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </ng-container>
     </div>

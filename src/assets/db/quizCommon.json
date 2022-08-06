@@ -1,0 +1,60 @@
+{
+    "quizCol" :[
+        {
+            "lits-type": "entertainment",
+            "entertainment" :[
+                {
+                    "col" : "https://i.imgur.com/0N8jCVel.png",
+                    "name" : "name 1"
+                },
+                {
+                    "col" : "https://i.imgur.com/WP0dHycl.png",
+                    "name" : "name 2"
+                },
+                {
+                    "col" : "https://i.imgur.com/9kKznp7l.png",
+                    "name" : "name 3"
+                }
+            ]
+        },
+        {
+            "sports" :[
+                {
+                    "col" : "https://i.imgur.com/3ICzrlYl.png",
+                    "name" : "name 3"
+                },
+                {
+                    "col" : "https://i.imgur.com/OF8gq9Hl.png",
+                    "name" : "name 3"
+                },
+                {
+                    "col" : "https://i.imgur.com/OF8gq9Hl.png",
+                    "name" : "name 3"
+                }
+            ]
+        },
+        {
+            "travel" :[
+                {
+                    "col" : "https://i.imgur.com/yN1154vl.png",
+                    "name" : "name 3"
+                },
+                {
+                    "col" : "https://i.imgur.com/harVFCSl.png",
+                    "name" : "name 3"
+                },
+                {
+                    "col" : "https://i.imgur.com/PbA8R6Ll.png",
+                    "name" : "name 3"
+                }
+            ]
+        },
+        {
+            "misc" :[
+                {
+
+                }
+            ]
+        }
+    ]
+}
