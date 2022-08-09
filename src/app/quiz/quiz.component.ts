@@ -22,7 +22,8 @@ export class QuizComponent implements OnInit, OnDestroy {
   countSecondIncreamnet: number = 0;
   countMicroSecondIncreamnet: number = 0;
   countingState: boolean = false;
-  scorePageEnabled: boolean = false;
+  scorePageEnabled: boolean = true;
+  totalScore: number = 0;
   
   constructor(
     private route: ActivatedRoute,
@@ -48,7 +49,7 @@ export class QuizComponent implements OnInit, OnDestroy {
   getRouterParamRoleName(){
     this.sub = this.route.params.subscribe(params => {
       this.quizRoleName = params['name'];
-      console.log(" this.quizRoleName", this.quizRoleName)
+      // console.log(" this.quizRoleName", this.quizRoleName)
    });
   }
 
@@ -89,7 +90,9 @@ export class QuizComponent implements OnInit, OnDestroy {
     this.rightAnswerNumber = this.getroleDetails.quiz_collection[this.quizIndex].correctAnswerIdx;
     if(index == this.rightAnswerNumber){
       this.selectedRigthAnswer = true;
+      this.totalScoreCount();
     }else{
+      this.countMicroSecondIncreamnet = 0;
       this.selectedRigthAnswer = false;
     }
   }
@@ -100,6 +103,10 @@ export class QuizComponent implements OnInit, OnDestroy {
     this.resettingIntervalVarivale();
     this.loadSeconds(true);
     this.loadMicroSeconds(true);
+
+    if(this.getroleDetails.quiz_collection.length == this.quizIndex){
+      this.scorePageEnabled = true;
+    }
   }
 
   resettingIntervalVarivale(){
@@ -109,6 +116,11 @@ export class QuizComponent implements OnInit, OnDestroy {
     this.countSecondIncreamnet = 0;
     this.countMicroSecondIncreamnet = 0;
     this.countingState = false;
+  }
+
+  totalScoreCount(){
+    this.totalScore = this.countMicroSecondIncreamnet + this.totalScore;
+    // console.log("total",this.totalScore)
   }
 
   loadSeconds(value:any) {
@@ -156,12 +168,12 @@ export class QuizComponent implements OnInit, OnDestroy {
     }, 14);
 
     if (!intervalState) {
-      that.countMicroSecondIncreamnet = that.maxMicroSeconds;
       that.countingState = true;
       that.nextButtonEnabled = true;
+      that.countMicroSecondIncreamnet = that.maxMicroSeconds;
     }
 
-    console.log("that.maxMicroSeconds",that.maxMicroSeconds)
+    // console.log("that.maxMicroSeconds",that.maxMicroSeconds)
   }
 
   
