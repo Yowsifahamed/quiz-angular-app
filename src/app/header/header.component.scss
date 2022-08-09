@@ -23,3 +23,16 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .custom-nav-bar{
+        .cust-navbar-nav {
+            .cust-nav-item {
+                padding: 3px 4px;
+                min-width: 70px;
+                margin: 5px 3px;
+                font-size: 75%;
+            }
+        }
+    }
+}
