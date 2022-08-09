@@ -1,5 +1,6 @@
-<div class="quiz-content">
-    <img [src]="getroleDetails?.quiz_start_image" alt="">
+<div class="quiz-content" *ngIf="!scorePageEnabled">
+    <img [src]="getroleDetails?.quiz_start_image" alt="" *ngIf="!quizEnabled">
+    <img [src]="getroleDetails.quiz_collection[quizIndex].image" alt="" *ngIf="quizEnabled">
     <header class="header">
         <div class="screen-content">
             <div class="quiz-start-section" *ngIf="!quizEnabled">
@@ -14,8 +15,14 @@
                     {{ getroleDetails.quiz_collection[quizIndex].questionMd }}
                 </h2>
                 <div class="questionScore">
-                    <span class="time low" id="time">⏰ {{maxSeconds}}</span>
-                    <span class="points">🏆 {{ maxMicroSeconds }}</span>
+                    <ng-container *ngIf="maxSeconds > 0;else other_content">
+                        <span class="time low" id="time" [ngClass]="maxSeconds > 1 ? 'reachable-time': maxSeconds == 1 ? 'below-2' : ''">⏰ {{ countingState == false ? maxSeconds : countSecondIncreamnet }} Sec</span>
+                    </ng-container>
+                    <ng-template #other_content>
+                        <span class="time low" id="time">⏰ Time out</span>
+                    </ng-template>
+
+                    <span class="points">🏆 {{ countingState == false ? maxMicroSeconds : countMicroSecondIncreamnet }}</span>
                 </div>
                 <ul class="questionOptions" [class.questionDisabled]="nextButtonEnabled"
                 *ngFor="let answersCol of getroleDetails.quiz_collection[quizIndex].answers;let i = index">
@@ -31,4 +38,31 @@
             </div>    
         </div>
     </header>
+</div>
+
+<div class="score-content" *ngIf="scorePageEnabled">
+    <img [src]="getroleDetails?.quiz_start_image" alt="" >
+    <div class="quiz-complete">
+        <div class="quiz-score">
+            <div class="score-text">
+                <h3>🏆 Your score</h3>
+            </div>
+            <div class="score-points">
+                <h3 class="numberscore">4618</h3>
+            </div>
+        </div>
+        <div class="quiz-reasult">
+            <div class="reasult">
+                <h3>You got 5 OUT OF <br> 20 RIGHT! </h3>
+            </div>
+            <div class="challage-reasult">
+                🎯 Challenge: Can you get <br> 8/20 right?
+            </div>
+        </div>
+        <div class="more-quiz">
+            <p> Share your result: </p>
+            <button class="retake-quiz-btn" id="retakeQuiz" title="⟲ Retake Quiz"> ⟲ Retake Quiz </button> <br>
+            <button class="more-quiz-btn" id="moreQuiz" title="More Quizzes >"> More Quizzes > </button>
+        </div>
+    </div>
 </div>

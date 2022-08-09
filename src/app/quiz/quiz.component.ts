@@ -19,6 +19,10 @@ export class QuizComponent implements OnInit, OnDestroy {
   nextButtonEnabled: boolean = false;
   maxSeconds: number = 14;
   maxMicroSeconds: number = 1000;
+  countSecondIncreamnet: number = 0;
+  countMicroSecondIncreamnet: number = 0;
+  countingState: boolean = false;
+  scorePageEnabled: boolean = false;
   
   constructor(
     private route: ActivatedRoute,
@@ -63,11 +67,13 @@ export class QuizComponent implements OnInit, OnDestroy {
   startQuiz(){
     this.quizEnabled = true;
     this.quizIndex++;
-    this.loadSeconds();
-    this.loadMicroSeconds();
+    this.loadSeconds(true);
+    this.loadMicroSeconds(true);
   }
 
   selectedAnswer(index:any){
+    this.loadSeconds(false);
+    this.loadMicroSeconds(false);
     this.nextButtonEnabled = true;
     this.selectedIndex = index;
     this.rightAnswerNumber = this.getroleDetails.quiz_collection[this.quizIndex].correctAnswerIdx;
@@ -81,29 +87,71 @@ export class QuizComponent implements OnInit, OnDestroy {
   nextQuiz(){
     this.quizIndex++;
     this.selectedIndex = -1;
+    this.resettingIntervalVarivale();
+    this.loadSeconds(true);
+    this.loadMicroSeconds(true);
+  }
+
+  resettingIntervalVarivale(){
     this.nextButtonEnabled = false;
+    this.maxSeconds = 14;
+    this.maxMicroSeconds = 1000;
+    this.countSecondIncreamnet = 0;
+    this.countMicroSecondIncreamnet = 0;
+    this.countingState = false;
   }
 
-  loadSeconds() {
-    var that = this;
+  loadSeconds(value:any) {
+    let that = this;
+    let intervalState = value;
     let interval = setInterval(function () {
-      that.maxSeconds--;
-      if(that.maxSeconds < 1 ){
+      if (intervalState) {
+        that.maxSeconds--;
+      }
+
+      if (that.maxSeconds < 1) {
         clearInterval(interval);
-    }
-      console.log("this.increaseCount",that.maxSeconds)
+        that.nextButtonEnabled = true;
+      }  
+
+      if (!intervalState) {
+        clearInterval(interval);
+      }
+
     }, 1000);
+
+    if (!intervalState) {
+      that.countSecondIncreamnet = that.maxSeconds;
+      that.countingState = true;
+      that.nextButtonEnabled = true;
+    }
   }
 
-  loadMicroSeconds() {
-    var that = this;
+  loadMicroSeconds(value:any) {
+    let that = this;
+    let intervalState = value;
     let interval = setInterval(function () {
-      that.maxMicroSeconds--;
-      if(that.maxMicroSeconds < 1 ){
+      if (intervalState) {
+        that.maxMicroSeconds--;
+      }
+
+      if (that.maxMicroSeconds < 1) {
         clearInterval(interval);
+        that.nextButtonEnabled = true;
+      }
+
+      if (!intervalState) {
+        clearInterval(interval);
+      }
+    }, 14);
+
+    if (!intervalState) {
+      that.countMicroSecondIncreamnet = that.maxMicroSeconds;
+      that.countingState = true;
+      that.nextButtonEnabled = true;
     }
-      console.log("this.increaseCount",that.maxMicroSeconds)
-    }, 71);
+
+    console.log("that.maxMicroSeconds",that.maxMicroSeconds)
   }
 
   
