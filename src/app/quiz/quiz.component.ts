@@ -22,7 +22,7 @@ export class QuizComponent implements OnInit, OnDestroy {
   countSecondIncreamnet: number = 0;
   countMicroSecondIncreamnet: number = 0;
   countingState: boolean = false;
-  scorePageEnabled: boolean = true;
+  scorePageEnabled: boolean = false;
   totalScore: number = 0;
   
   constructor(
