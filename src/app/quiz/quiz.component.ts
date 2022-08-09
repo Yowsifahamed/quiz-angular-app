@@ -33,7 +33,7 @@ export class QuizComponent implements OnInit, OnDestroy {
     this.getRouterParamRoleName();
     this.getReleventDataOfRole();
     this.detectTheDeveice();
-    // this.playAudio();
+    this.playAudio();
   }
 
   detectTheDeveice() {
