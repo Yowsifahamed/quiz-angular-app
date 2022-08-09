@@ -2,10 +2,10 @@
     <div class="row">
         <ng-container>
             <div class="col-sm-12 col-md-4 das-col-sm" *ngFor="let data of dashboardData">
-                <div class="img-section">
+                <div class="img-section" (click)="goQuizRoleDetails(data)">
                     <img [src]="data.col" class="content-img" alt="quiz app" />
                     <div class="image-header">
-                        <span class="category" (click)="goQuizRoleDetails(data)"> {{ data.name }}</span>
+                        <span class="category"> {{ data.name }}</span>
                     </div>
                     <div class="image-footer">
                         <div class="quiz-time">
