@@ -291,9 +291,17 @@ img {
             color: #fff;
             border: 0 solid;
             text-transform: uppercase;
-            font-family: beRegular;
+            font-family: "Autour One", cursive;
             cursor: pointer;
-            font-size: 24px;
+            font-size: 20px;
+        }
+
+        .quiz-collection {
+            .questionText {
+                font-size: 25px;
+                line-height: 30px;
+                margin-bottom: 25px;
+            }
         }
     }
 }
