@@ -1,7 +1,7 @@
 <div class="quiz-content" *ngIf="!scorePageEnabled">
     <img [src]="getroleDetails?.quiz_start_image" alt="" *ngIf="!quizEnabled">
-    <img [src]="getroleDetails.quiz_collection[quizIndex].image" alt="" *ngIf="quizEnabled">
-    <header class="header">
+    <img [src]="getroleDetails.quiz_collection[quizIndex].image" alt="" *ngIf="quizEnabled && !detectTheDeveice()">
+    <section class="content">
         <div class="screen-content">
             <div class="quiz-start-section" *ngIf="!quizEnabled">
                 <h1 class="quizTitle">The Toughest <span class="ronaldo">Cristiano Ronaldo</span> Quiz!</h1>
@@ -37,7 +37,7 @@
                 </button>
             </div>    
         </div>
-    </header>
+    </section>
 </div>
 
 <div class="score-content" *ngIf="scorePageEnabled">

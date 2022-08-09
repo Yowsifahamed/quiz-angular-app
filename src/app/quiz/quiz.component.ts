@@ -32,7 +32,17 @@ export class QuizComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.getRouterParamRoleName();
     this.getReleventDataOfRole();
+    this.detectTheDeveice();
     // this.playAudio();
+  }
+
+  detectTheDeveice() {
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+      return true
+    }
+    else{
+      return false
+    }
   }
 
   getRouterParamRoleName(){
