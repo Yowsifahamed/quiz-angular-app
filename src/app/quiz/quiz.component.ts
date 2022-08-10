@@ -83,9 +83,6 @@ export class QuizComponent implements OnInit, OnDestroy {
   }
 
   selectedAnswer(index:any){
-    this.loadSeconds(false);
-    this.loadMicroSeconds(false);
-    this.nextButtonEnabled = true;
     this.selectedIndex = index;
     this.rightAnswerNumber = this.getroleDetails.quiz_collection[this.quizIndex].correctAnswerIdx;
     if(index == this.rightAnswerNumber){
@@ -95,6 +92,10 @@ export class QuizComponent implements OnInit, OnDestroy {
       this.countMicroSecondIncreamnet = 0;
       this.selectedRigthAnswer = false;
     }
+
+    this.loadSeconds(false);
+    this.loadMicroSeconds(false);
+    this.nextButtonEnabled = true;
   }
 
   nextQuiz(){
@@ -126,23 +127,23 @@ export class QuizComponent implements OnInit, OnDestroy {
   loadSeconds(value:any) {
     let that = this;
     let intervalState = value;
-    let interval = setInterval(function () {
-      if (intervalState) {
-        that.maxSeconds--;
-      }
+    var secondInterval: any;
+    secondInterval = setInterval(function () {
 
       if (that.maxSeconds < 1) {
-        clearInterval(interval);
+        intervalState = false;
+        clearInterval(secondInterval);
         that.nextButtonEnabled = true;
       }  
 
-      if (!intervalState) {
-        clearInterval(interval);
+      if (intervalState) {
+        that.maxSeconds--;
       }
 
     }, 1000);
 
     if (!intervalState) {
+      clearInterval(secondInterval);
       that.countSecondIncreamnet = that.maxSeconds;
       that.countingState = true;
       that.nextButtonEnabled = true;
@@ -152,28 +153,27 @@ export class QuizComponent implements OnInit, OnDestroy {
   loadMicroSeconds(value:any) {
     let that = this;
     let intervalState = value;
-    let interval = setInterval(function () {
-      if (intervalState) {
-        that.maxMicroSeconds--;
-      }
+    var microInterval: any;
+     microInterval = setInterval(function () {
 
       if (that.maxMicroSeconds < 1) {
-        clearInterval(interval);
+        intervalState = false;
+        clearInterval(microInterval);
         that.nextButtonEnabled = true;
       }
 
-      if (!intervalState) {
-        clearInterval(interval);
+      if (intervalState) {
+        that.maxMicroSeconds--;
       }
     }, 14);
 
     if (!intervalState) {
+      clearInterval(microInterval);
       that.countingState = true;
       that.nextButtonEnabled = true;
       that.countMicroSecondIncreamnet = that.maxMicroSeconds;
     }
-
-    // console.log("that.maxMicroSeconds",that.maxMicroSeconds)
+    console.log("that.maxMicroSeconds",that.maxMicroSeconds)
   }
 
   
