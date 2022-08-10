@@ -173,7 +173,6 @@ export class QuizComponent implements OnInit, OnDestroy {
       that.nextButtonEnabled = true;
       that.countMicroSecondIncreamnet = that.maxMicroSeconds;
     }
-    console.log("that.maxMicroSeconds",that.maxMicroSeconds)
   }
 
   

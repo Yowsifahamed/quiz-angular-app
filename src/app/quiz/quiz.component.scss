@@ -78,6 +78,19 @@
     margin-bottom: 20px;
 
     .time.low {
+        background-color: #adff2f;
+        // background-color: #c00;
+        color: #fff;
+        width: 124px;
+        font-size: 20px;
+        line-height: 35px;
+        padding: 4px 6px 0;
+        font-family: "Kanit", sans-serif;
+        color: #000;
+    }
+
+    .time-out {
+        // background-color: #adff2f;
         background-color: #c00;
         color: #fff;
         width: 124px;

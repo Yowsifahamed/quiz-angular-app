@@ -15,12 +15,13 @@
                     {{ getroleDetails.quiz_collection[quizIndex].questionMd }}
                 </h2>
                 <div class="questionScore">
-                    <ng-container *ngIf="maxSeconds > 0;else other_content">
-                        <span class="time low" id="time" [ngClass]="maxSeconds > 1 ? 'reachable-time': maxSeconds == 1 ? 'below-2' : ''">⏰ {{ countingState == false ? maxSeconds : countSecondIncreamnet }} Sec</span>
+                    <ng-container *ngIf="maxSeconds !== 0 && countSecondIncreamnet == 0 || countSecondIncreamnet > 0">
+                        <span class="time low" id="time" [ngClass]="maxSeconds == 1 && !countingState ? 'below-2': ''">⏰ {{ countingState == false ? maxSeconds : countSecondIncreamnet }} Sec</span>
                     </ng-container>
-                    <ng-template #other_content>
-                        <span class="time low" id="time">⏰ Time out</span>
-                    </ng-template>
+
+                    <ng-container *ngIf="maxSeconds == 0 && countSecondIncreamnet == 0">
+                        <span class="time-out" id="time">⏰ Time out</span>
+                    </ng-container>
 
                     <span class="points">🏆 {{ countingState == false ? maxMicroSeconds : countMicroSecondIncreamnet }}</span>
                 </div>
