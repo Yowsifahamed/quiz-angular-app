@@ -14,5 +14,11 @@
         color: #fff;
         font-size: 12px;
         font-weight: 200;
+
+        &:hover {
+            list-style-type: underline;
+            text-decoration: underline;
+            cursor: pointer;
+        }
     }
 }
