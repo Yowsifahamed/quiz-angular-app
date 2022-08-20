@@ -1,5 +1,7 @@
 <footer>
     <ul class="footer-list">
-        
+        <ng-container *ngFor="let urlCol of footerNavigation">
+            <li> {{ urlCol.nav }} </li>
+        </ng-container>
     </ul>
 </footer>

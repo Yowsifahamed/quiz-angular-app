@@ -6,6 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
+  public footerNavigation : Array<any> = [
+    {
+      "nav": "Home",
+      "routing": ""
+    },
+    {
+      "nav": "All Quizzes",
+      "routing": ""
+    },
+    {
+      "nav": "About Us",
+      "routing": ""
+    },
+    {
+      "nav": "Contact Us",
+      "routing": ""
+    }
+  ]
 
   constructor() { }
 
