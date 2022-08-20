@@ -18,7 +18,8 @@
     left: 0;
     display: -moz-box;
     display: flex;
-    justify-content: flex-end
+    justify-content: flex-end;
+    bottom: 0px;
 }
 
 .quizTitle {
@@ -289,7 +290,8 @@ img {
 @media only screen and (max-width: 600px) {
     .content {
         background-color: #000;
-        min-height: 598px;
+
+        height: 100vh;
     }
     .screen-content {
         margin: 10px;
