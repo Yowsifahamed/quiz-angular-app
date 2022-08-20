@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { DashboardService } from '../service/dashboard.service';
 
 @Component({
@@ -24,11 +24,13 @@ export class QuizComponent implements OnInit, OnDestroy {
   countingState: boolean = false;
   scorePageEnabled: boolean = false;
   totalScore: number = 0;
+  totalPoints: number = 0;
   secondInterval: any;
   
   constructor(
     private route: ActivatedRoute,
     private dashboardService: DashboardService,
+    private router : Router
     ) {}
 
   ngOnInit() {
@@ -121,8 +123,8 @@ export class QuizComponent implements OnInit, OnDestroy {
   }
 
   totalScoreCount(){
-    this.totalScore = this.countMicroSecondIncreamnet + this.totalScore;
-    // console.log("total",this.totalScore)
+    this.totalScore = this.maxMicroSeconds + this.totalScore;
+    console.log("total",this.totalScore)
   }
 
   loadSeconds(value:any) {
@@ -176,6 +178,10 @@ export class QuizComponent implements OnInit, OnDestroy {
       that.countMicroSecondIncreamnet = that.maxMicroSeconds;
       that.maxMicroSeconds = 0;
     }
+  }
+
+  retakeQuiz(){
+    window.location.reload();
   }
 
   
