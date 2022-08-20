@@ -24,6 +24,7 @@ export class QuizComponent implements OnInit, OnDestroy {
   countingState: boolean = false;
   scorePageEnabled: boolean = false;
   totalScore: number = 0;
+  secondInterval: any;
   
   constructor(
     private route: ActivatedRoute,
@@ -127,12 +128,11 @@ export class QuizComponent implements OnInit, OnDestroy {
   loadSeconds(value:any) {
     let that = this;
     let intervalState = value;
-    var secondInterval: any;
-    secondInterval = setInterval(function () {
+    this.secondInterval = setInterval(function () {
 
       if (that.maxSeconds < 1) {
         intervalState = false;
-        clearInterval(secondInterval);
+        clearInterval(that.secondInterval);
         that.nextButtonEnabled = true;
       }  
 
@@ -143,10 +143,12 @@ export class QuizComponent implements OnInit, OnDestroy {
     }, 1000);
 
     if (!intervalState) {
-      clearInterval(secondInterval);
+      clearInterval(that.secondInterval);
+      that.secondInterval = 0;
       that.countSecondIncreamnet = that.maxSeconds;
       that.countingState = true;
       that.nextButtonEnabled = true;
+      that.maxSeconds = 0;
     }
   }
 
@@ -172,6 +174,7 @@ export class QuizComponent implements OnInit, OnDestroy {
       that.countingState = true;
       that.nextButtonEnabled = true;
       that.countMicroSecondIncreamnet = that.maxMicroSeconds;
+      that.maxMicroSeconds = 0;
     }
   }
 
