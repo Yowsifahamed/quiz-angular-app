@@ -1,0 +1,292 @@
+[
+    {
+        "questionMd": "*True or False*: Mars' single **\"It Will Rain\"** was the lead soundtrack of **The Twilight Saga: Eclipse**",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "8ce8cd77be8790e1b81dc45588f307b77b58b7f7",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Guess the music video  \n![](https://i.imgur.com/rLSkdVj.gif)",
+        "answers": [
+            "When I Was Your Man",
+            "That's What I Like",
+            "Just the Way You Are",
+            "It Will Rain"
+        ],
+        "type": "VIDEO_BY_IMAGE",
+        "id": "1dd8e16ea1ffb8615515e250342518f2f0f4d617",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "Guess the music video  \n![](https://i.imgur.com/mJ0k5rz.gif)",
+        "answers": [
+            "24K Magic",
+            "Gorilla",
+            "Finesse",
+            "Grenade"
+        ],
+        "type": "VIDEO_BY_IMAGE",
+        "id": "78c175ea895644a6827aa882d141a47dbde18f8a",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "What is the opening track of Mars' album **Doo-Wops & Hooligans**?",
+        "answers": [
+            "Grenade",
+            "Just the Way You Are",
+            "The Lazy Song",
+            "Marry You"
+        ],
+        "type": "GENERAL",
+        "id": "3c023d1a35d0c9770e3fc66b8a0f92d338db50ae",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "When is Mars' birthday?",
+        "answers": [
+            "October 8, 1985",
+            "October 10, 1984",
+            "October 9, 1986",
+            "October 11, 1984"
+        ],
+        "type": "GENERAL",
+        "id": "e1a22af68757c13fbf6b2d08b056f04f9cc8a996",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "Which year did Mars started dating **Jessica Caban**?",
+        "answers": [
+            "2009",
+            "2011",
+            "2013",
+            "2015"
+        ],
+        "type": "GENERAL",
+        "id": "b600e363d7827154b45cc28be45f122fb7950b55",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Where is Mars originally from?",
+        "answers": [
+            "Miami, Florida",
+            "Chicago, Illinois",
+            "Honolulu, Hawaii",
+            "Boston, Massachusetts"
+        ],
+        "type": "GENERAL",
+        "id": "850638209fa3d4f7514903fa54f059bd6cc7426a",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "Guess the music video  \n![](https://i.imgur.com/3szlzsQ.gif)",
+        "answers": [
+            "Just the Way You Are",
+            "That's What I Like",
+            "Grenade",
+            "It Will Rain"
+        ],
+        "type": "VIDEO_BY_IMAGE",
+        "id": "90469e5fd10f8b7690c45325678595a8eb5085e1",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "*True or False*: Mars appeared in Time magazine's list of the 100 most influential people in the world in 2011",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "2fc1bc0b9abcd17e201e17e50def58ace91cee75",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "In which song does Mars sing: *\"Same bed but it feels just a little bit bigger now. Our song on the radio but it don't sound the same\"*?",
+        "answers": [
+            "When I Was Your Man",
+            "It Will Rain",
+            "Too Good to Say Goodbye",
+            "Runaway Baby"
+        ],
+        "type": "SONG_BY_LYRICS",
+        "id": "2ac41e74f31a221b42431a2388a8e2f2bf001cd0",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "Which instrument is played by Mars in his music band apart from being lead vocalist?",
+        "answers": [
+            "Drums",
+            "Saxophone",
+            "Guitar",
+            "Keyboard"
+        ],
+        "type": "GENERAL",
+        "id": "e6a1455239a88302b435b77d4698d4de5b5aa6aa",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "Guess the music video  \n![](https://i.imgur.com/E19LznZ.gif)",
+        "answers": [
+            "24K Magic",
+            "Locked Out of Heaven",
+            "Uptown Funk",
+            "Finesse"
+        ],
+        "type": "VIDEO_BY_IMAGE",
+        "id": "d6707694ff9b5f4de8cffd5b6b882f736727aedf",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "Guess the music video  \n![](https://i.imgur.com/9PTZ7vr.gif)",
+        "answers": [
+            "Gorilla",
+            "The Lazy Song",
+            "Uptown Funk",
+            "24K Magic"
+        ],
+        "type": "VIDEO_BY_IMAGE",
+        "id": "3d3f81ce5e0da7e832b97e38ce5dca6d80e9050a",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "*True or False*: **\"Money Make Her Smile\"** was a track featured in Mars' album **Doo-Wops & Hooligans**",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "f83255cdaf9a76baa2d2b3148000632414d08757",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Mars got his nickname 'Bruno' as resemblance to whom?",
+        "answers": [
+            "Bruno Walter",
+            "Bruno Kreisky",
+            "Bruno Munari",
+            "Bruno Sammartino"
+        ],
+        "type": "GENERAL",
+        "id": "550ddd4407bbe7ac4913f0b4f54ccabaad37fe81",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "Fill in the blank *\"If you ever leave me baby, leave some _____ at my door\"*",
+        "answers": [
+            "tears",
+            "memories",
+            "roses",
+            "morphine"
+        ],
+        "type": "GENERAL",
+        "id": "56f146a0f0b20860b7d12c343593beeb15e6a7c0",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "In which song does Mars sing: *\"I might mess around and get my college degree. I bet my old man will be so proud of me\"*?",
+        "answers": [
+            "Calling All My Lovelies",
+            "The Lazy Song",
+            "That's What I Like",
+            "Count On Me"
+        ],
+        "type": "SONG_BY_LYRICS",
+        "id": "1bbc317278cf03fa1fcd3238dc04769b751707d0",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Which Mars' song can be heard from strippers' changing room in the opening scene of **Gorilla** music video?\"",
+        "answers": [
+            "Treasure",
+            "Money Make Her Smile",
+            "Moonshine",
+            "Grenade"
+        ],
+        "type": "GENERAL",
+        "id": "5f6c455e143b323adbe2881ab6dc0636ac6d0d3e",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "What is Mars' official Twitter handle?",
+        "answers": [
+            "@BrunoMars",
+            "@MarsBruno",
+            "@RealBruno",
+            "@BrunoMarsOfficial"
+        ],
+        "type": "GENERAL",
+        "id": "bd158f85274a82c8af6684292ef20b6ed6020621",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "What is the name of Mars' music band?",
+        "answers": [
+            "Flaming Lips",
+            "The Hooligans",
+            "Dark Floyd",
+            "Smashing Pumpkins"
+        ],
+        "type": "GENERAL",
+        "id": "8c008a63ec0d64045fe0e0a4fc9e4f33711f8592",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "*True or False*: Mars' mother is a hula dancer from Philippines",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "3db5309b11082bd742d2e6beaf3644dabf9debce",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "In which song does Mars sing: *\"You got your legs up in the sky, with the devil in your eyes, let me hear you say you want it all\"*?",
+        "answers": [
+            "Runaway Baby",
+            "Our First Time",
+            "Young Girls",
+            "Gorilla"
+        ],
+        "type": "SONG_BY_LYRICS",
+        "id": "c8b0135e8689b32d410bef29b557e7bf3b160640",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "In which song does Mars sing: *\"If my body was on fire, oh, you'd watch me burn down in flames. You said you loved me, you're a liar\"*?",
+        "answers": [
+            "Too Good to Say Goodbye",
+            "24K Magic",
+            "Grenade",
+            "Runaway Baby"
+        ],
+        "type": "SONG_BY_LYRICS",
+        "id": "e3547e675353329d6d2f13f82cea0baea20dcc03",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "*True or False*: Indian actress **Freida Pinto** portrays the role of Isabella in Mars' **Gorilla** music video",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "a7e8529b228e9df3496d4ef927bab84fefc3b8bb",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "In which song does Mars sing: *\"You're everything I see in my dreams. I wouldn't say that to you if it wasn't true\"*?",
+        "answers": [
+            "Just the Way You Are",
+            "Gorilla",
+            "Natalie",
+            "Treasure"
+        ],
+        "type": "SONG_BY_LYRICS",
+        "id": "6d04a94f2be34c79c7356c5dcad2084cbfd3daa0",
+        "correctAnswerIdx": 3
+    }
+]

@@ -1,0 +1,232 @@
+[
+    {
+        "questionMd": "What is Nadal's autobiography called?",
+        "answers": [
+            "King of Clay",
+            "Facing Nadal",
+            "Open",
+            "Rafa: My Story"
+        ],
+        "type": "GENERAL",
+        "id": "d3f47c4bb11545b405bec61589cc05abb99e3b71",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "What other sport Nadal enjoys playing in addition to tennis and football?",
+        "answers": [
+            "Badminton",
+            "Baseball",
+            "Basketball",
+            "Golf"
+        ],
+        "type": "GENERAL",
+        "id": "55a28dfa6c772061a11c36756fcbd5e0e968e025",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "What is Nadal's height?",
+        "answers": [
+            "5 ft 8 in",
+            "5 ft 10 in",
+            "6 ft 1 in",
+            "6 ft 4 in"
+        ],
+        "type": "GENERAL",
+        "id": "bc3bb139e5878d92a189e3adfbd906a4120f8157",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "*True or False*: Nadal has **Barcelona** centre court named after him",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "e079ee0f11012e5dcda5fd276af0e0e693e286d6",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "*True or False*: Nadal always used to wear a watch on-court from his early days",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "35c582972eb5299d5c5325f0f3dc0b6f924dd006",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "*True or False*: Nadal's match against **Roger Federer** in 2008 is the **longest final** in Wimbledon history (4 hr 48 min)",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "8e1b3b668f60ff2f4763aaa5fb8fd2fbfca76a18",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Which player defeated Nadal to end his streak of 31 wins in a row in **2009 French Open**?",
+        "answers": [
+            "Roger Federer",
+            "Robin Söderling",
+            "Stefan Edberg",
+            "Novak Djokovic"
+        ],
+        "type": "GENERAL",
+        "id": "a06c11a6ae8a1491dac4d9b935781b62a412b80c",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "As of 2020, how many times has Nadal defeated **Roger Federer** in the **French Open** final?",
+        "answers": [
+            "3 times",
+            "4 times",
+            "5 times",
+            "6 times"
+        ],
+        "type": "GENERAL",
+        "id": "f6fa4622f0f685863f774db00a33050b69733f15",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Which Gland Slam Champion did Nadal defeat at an exhibition match when he was 15 years old?",
+        "answers": [
+            "Pat Cash",
+            "Stefan Edberg",
+            "Pat Rafter",
+            "Mats Wilander"
+        ],
+        "type": "GENERAL",
+        "id": "db615b4b2efd54999f56e79078abd642fca4604e",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "In which music video Nadal appeared in 2010?",
+        "answers": [
+            "Just the way you are – Bruno Mars",
+            "The Cup of Life – Ricky Martin",
+            "Gypsy – Shakira",
+            "Escape – Enrique Iglesias"
+        ],
+        "type": "GENERAL",
+        "id": "fa2191fbb3afa591e68b1bdb45139d395593ea58",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "How old was Nadal when he won under-12 regional tennis championship?",
+        "answers": [
+            "8 years",
+            "9 years",
+            "10 years",
+            "11 years"
+        ],
+        "type": "GENERAL",
+        "id": "5c5dd96ebeffcb19d6880a35961b9746937ad40c",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "*True or False*: Nadal is the only player to have ever finished **four consecutive calendar years** at the top",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "01dfb2b6eb3f749073c42db346ed807f54e17660",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Who did Nadal win his first ATP match against?",
+        "answers": [
+            "Stefan Koubek",
+            "Stefan Edberg",
+            "Goran Ivanišević",
+            "Ramón Delgado"
+        ],
+        "type": "GENERAL",
+        "id": "5b705ddf959bb31c53cbb561614e46266637b690",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "Nadal was a promising football player too. Who made Nadal choose one between football and tennis?",
+        "answers": [
+            "Father",
+            "Mother",
+            "Uncle",
+            "Girlfriend"
+        ],
+        "type": "GENERAL",
+        "id": "98cdd798fe399a1fe15f42fa9dc4f6936b117ee7",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "Which year was Nadal born?",
+        "answers": [
+            "1984",
+            "1985",
+            "1986",
+            "1987"
+        ],
+        "type": "GENERAL",
+        "id": "54dfffd211559d1bbad76a131ad8cdc0475e5418",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "As of 2020, how many **Wimbledon** singles finals has Nadal played in?",
+        "answers": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+        ],
+        "type": "GENERAL",
+        "id": "6fb0f7f645ebfe13a30d2f9d9af5368da4172e0d",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "Who was Nadal's uncle who introduced him to the game of tennis?",
+        "answers": [
+            "Miguel",
+            "Toni",
+            "Toby",
+            "Sebastián"
+        ],
+        "type": "GENERAL",
+        "id": "d3a909c5ef71db9f87e1e4590d5bffabb66a0965",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "As of 2020, how many times Nadal has won **Wimbledon** singles?",
+        "answers": [
+            "Never",
+            "Once",
+            "Twice",
+            "Thrice"
+        ],
+        "type": "GENERAL",
+        "id": "576d2ba525bbac8d655280bdb76787bfc655bad3",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "Where is Nadal originally from?",
+        "answers": [
+            "Gran Canaria, Spain",
+            "Mallorca, Spain",
+            "Formentera, Spain",
+            "La Gomera, Spain"
+        ],
+        "type": "GENERAL",
+        "id": "bd44cf6e085e624df01801c3541fb87d8b54cba6",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "*True or False*: Nadal is the only player who has defeated **Roger Federer** in the final of a **Grand Slam** on grass, hard, and clay surfaces",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "7d3432712bde06a2198a3dd0b83c8e734c82bc7e",
+        "correctAnswerIdx": 0
+    }
+]

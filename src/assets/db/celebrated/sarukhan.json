@@ -1,0 +1,294 @@
+[
+    {
+        "questionMd": "What is the character played by Shah Rukh Khan in **My Name Is Khan**?",
+        "answers": [
+            "Rizvan Khan",
+            "Samar Anand",
+            "Shahrukh Khan",
+            "Gopal"
+        ],
+        "type": "CHARACTER_BY_MOVIE",
+        "id": "536e75220b7790ac6b23fc42aec5f950ab41a980",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "*True or False*: SRK currently holds record of longest running movie of Indian Cinema",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "ead87b126e696eafa334bdeea8ffa9a43840cebf",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "What is the character played by Shah Rukh Khan in **Zero**?",
+        "answers": [
+            "Amarkanth Varma",
+            "Bauua Singh",
+            "Ajay Bakshi",
+            "Raj Mathur"
+        ],
+        "type": "CHARACTER_BY_MOVIE",
+        "id": "dd6c8b2cbbd637a8c26f2fd5d7e789d708e69172",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "In which movie the song **Chammak Chalo** was featured?",
+        "answers": [
+            "Dilwale",
+            "Ra.One",
+            "Don 2",
+            "Fan"
+        ],
+        "type": "MOVIE_BY_SONG",
+        "id": "260a0c7f8a5e02cdb953b3f688c8aeff76112189",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "What is Shah Rukh Khan's favorite food?",
+        "answers": [
+            "Chicken Biriyani",
+            "Tandoori Chicken",
+            "Chocolate Ice Cream",
+            "Chicken Pizza"
+        ],
+        "type": "GENERAL",
+        "id": "b5a264514f85668db321a2c870610ba040608bf9",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "What is IPL team co-owned by Shah Rukh Khan?",
+        "answers": [
+            "Mumbai Indians",
+            "Chennai Super Kings",
+            "Sunrisers Hyderabad",
+            "Kolkata Knight Riders"
+        ],
+        "type": "GENERAL",
+        "id": "b12060228ffae322f106d43cb11ffeb149d1a7ff",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "Which year was Shah Rukh Khan born?",
+        "answers": [
+            "1965",
+            "1963",
+            "1968",
+            "1969"
+        ],
+        "type": "GENERAL",
+        "id": "3d761ab1f0b79d7ec9fe118f3dc7ba38db5feb69",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "In which movie the song **Maahi Ve** was featured?",
+        "answers": [
+            "Kuch Kuch Hota Hai",
+            "Chalte Chalte",
+            "Kabhi Khushi Kabhie Gham",
+            "Kal Ho Naa Ho"
+        ],
+        "type": "MOVIE_BY_SONG",
+        "id": "cb018a29fe9f63f14ede58aafad723ec9d38f978",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "*True or False*: SRK donated all the prize money KKR won in 2014 to the childrens hospital in Kolkata and Mumbai",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "9c092bfbe8db2be80382d281594ff2341532ae39",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "In which movie the song **Koi Mil Gaya** was featured?",
+        "answers": [
+            "Dilwale Dulhania Le Jayenge",
+            "Kabhi Khushi Kabhie Gham",
+            "Kuch Kuch Hota Hai",
+            "Hum Tumhare Hain Sanam"
+        ],
+        "type": "MOVIE_BY_SONG",
+        "id": "daf2d2d10bb69d6f5f402eef2bcfb1aa29da3324",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "What is Shah Rukh Khan's daughter's first name?",
+        "answers": [
+            "Suhana",
+            "Rehana",
+            "Mumtaz",
+            "Gauri"
+        ],
+        "type": "GENERAL",
+        "id": "485de49ad7752c7e971b12101f120893d1f9bce2",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "*True or False*: Character played by SRK dies in the movie **Veer-Zaara**",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "41438a36be9be1d28345cebeb2f5080873f20b73",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Guess the movie  \n![](https://i.imgur.com/xstfrEq.gif)",
+        "answers": [
+            "Chennai Express",
+            "Chak De! India",
+            "Paheli",
+            "Dilwale"
+        ],
+        "type": "MOVIE_BY_IMAGE",
+        "id": "3d5005cba944d631b8e8d4b1353db7e6f463db4b",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "What is Shah Rukh Khan's sister's first name?",
+        "answers": [
+            "Lalarukh",
+            "Nawaz",
+            "Shahnaz",
+            "Mumtaz"
+        ],
+        "type": "GENERAL",
+        "id": "c25e76590777332a9c24a1ab247f66bd1cd2bf6e",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "Which co-star was SRK's first on screen kiss?",
+        "answers": [
+            "Rani Mukerji",
+            "Kajol",
+            "Katrina Kaif",
+            "Kareena Kapoor"
+        ],
+        "type": "GENERAL",
+        "id": "1a8147e4c4b0502a812ad8abaefcb2c1377ac14c",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "*True or False*: Shah Rukh Khan received  Best Actor Filmfare Award for **Swades**",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "7e099c7ecc8103deb68ca38781c2d44b8d1cd98a",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "What is the character played by Shah Rukh Khan in **Chak De! India**?",
+        "answers": [
+            "Kabir Khan",
+            "Devdas Mukherji",
+            "Yeshwant Rao",
+            "Dev Saran"
+        ],
+        "type": "CHARACTER_BY_MOVIE",
+        "id": "12ceb17ab79bd54224440e747a123c36c3beb64f",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "In which year was **Chennai Express** released?",
+        "answers": [
+            "2013",
+            "2010",
+            "2016",
+            "2015"
+        ],
+        "type": "YEAR_BY_MOVIE",
+        "id": "b9fe07e3fbf26e439505994d44764c08c5731884",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "In which year was **Don 2** released?",
+        "answers": [
+            "2011",
+            "2009",
+            "2008",
+            "2014"
+        ],
+        "type": "YEAR_BY_MOVIE",
+        "id": "e8687405e70d48c37d0b41f41c7dcce5f4365a4d",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "Guess the movie  \n![](https://i.imgur.com/zfXVh6Y.gif)",
+        "answers": [
+            "Dilwale Dulhania Le Jayenge",
+            "Kuch Kuch Hota Hai",
+            "Dil To Pagal Hai",
+            "Kabhi Khushi Kabhie Gham"
+        ],
+        "type": "MOVIE_BY_IMAGE",
+        "id": "380d39e4f6adb970a0c4b786f929403dd3edd3f6",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "Guess the movie  \n![](https://i.imgur.com/272xTNn.gif)",
+        "answers": [
+            "Happy New Year",
+            "Jab Harry Met Sejal",
+            "Jab Tak Hai Jaan",
+            "Chennai Express"
+        ],
+        "type": "MOVIE_BY_IMAGE",
+        "id": "e81d068e4b2c42cc4ccbb8f9369c89ea701ca649",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "What is Shah Rukh Khan's trademark?",
+        "answers": [
+            "Muscular physique",
+            "Slowly waving both hands in a rising upward motion",
+            "His baritone voice",
+            "His intense eyes"
+        ],
+        "type": "GENERAL",
+        "id": "4bb051016224bb9c92420b86852db104310c9fa7",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Guess the movie  \n![](https://i.imgur.com/nVVdGC1.gif)",
+        "answers": [
+            "Happy New Year",
+            "Chennai Express",
+            "Fan",
+            "Ra.One"
+        ],
+        "type": "MOVIE_BY_IMAGE",
+        "id": "e78be12210adf5631cafca3b55c3f645113d2ccd",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "Guess the movie  \n![](https://i.imgur.com/MFQ3jSd.gif)",
+        "answers": [
+            "Chalte Chalte",
+            "Devdas",
+            "Kal Ho Naa Ho",
+            "Om Shanthi Om"
+        ],
+        "type": "MOVIE_BY_IMAGE",
+        "id": "b3921be11e317c96fcd98bf408df8fbe7554351f",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "What is the character played by Shah Rukh Khan in **Kabhi Alvida Naa Kehna**?",
+        "answers": [
+            "Amarkanth Varma",
+            "Rahul Khanna",
+            "Dev Saran",
+            "Kishanlal"
+        ],
+        "type": "CHARACTER_BY_MOVIE",
+        "id": "40b911c34a4fccc7ae5204b4bb27c41c79894c15",
+        "correctAnswerIdx": 2
+    }
+]

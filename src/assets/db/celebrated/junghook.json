@@ -1,0 +1,116 @@
+[
+    {
+        "questionMd": "*True or False*: Jungkook was the most searched K-pop artist on YouTube in both 2019 and 2020",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "a2b6c671e59ff0756e6e89d72fdd7e7c2f414b61",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "*True or False*: Jungkook covered **Justin Beiber** song *\"Nothing Like Us\"*",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "789cf1b821d436f2d553fef5d248f259d6d2400d",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "What was Jungkook's aspiration as a child?",
+        "answers": [
+            "To be an actor",
+            "To be a doctor",
+            "To be a singer",
+            "To be a badminton player"
+        ],
+        "type": "GENERAL",
+        "id": "ea8aaf5552b50ea394c14068955c8e215f786114",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "What does Jungkook loves to collect?",
+        "answers": [
+            "Bluetooth speakers",
+            "Music albums",
+            "Ties & Socks",
+            "Stamps"
+        ],
+        "type": "GENERAL",
+        "id": "4b5f619765c31accd1138352752a7e9e2755fab1",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "What is Jungkook's zodiac sign?",
+        "answers": [
+            "Gemini",
+            "Leo",
+            "Virgo",
+            "Cancer"
+        ],
+        "type": "GENERAL",
+        "id": "e708891a838d0ee8188b8b204822a3b4c2878a8d",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "Which **Justin Beiber** song has Jungkook covered?",
+        "answers": [
+            "Somebody To Love",
+            "Baby",
+            "Boyfriend",
+            "Purpose"
+        ],
+        "type": "GENERAL",
+        "id": "e34d73e5f4a869d50a4cdc430bc200b27650e9df",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "At a fan meet, what quality did Jungkook mention he would prefer in his partner?",
+        "answers": [
+            "Older than him",
+            "Does not know he's from BTS band",
+            "Can eat a lot",
+            "Knows to dance well"
+        ],
+        "type": "GENERAL",
+        "id": "07d27c9c1c95a2c4fffcf85389bf334215df4ab5",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "What is Jungkook's nickname?",
+        "answers": [
+            "Bon Bon",
+            "Honey",
+            "Puppy",
+            "Bunny"
+        ],
+        "type": "GENERAL",
+        "id": "0c481383cab6dbdd46dd90de600249f94c17b3f2",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "Who would Jungkook love to sing a duet with?",
+        "answers": [
+            "Jennie",
+            "Jung Eun-ji",
+            "Hwasa",
+            "IU"
+        ],
+        "type": "GENERAL",
+        "id": "fdd742c36e038963e93f68df0d5fcafe1a4c44dd",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "*True or False*: The shortest member of BTS group is Jungkook",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "4d3eace5d462ca36e0a4f641c950dfb2fb248240",
+        "correctAnswerIdx": 1
+    }
+]

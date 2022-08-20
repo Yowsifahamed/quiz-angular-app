@@ -1,0 +1,234 @@
+[
+    {
+        "questionMd": "*True or False*: Lee was the first Korean celebrity to perform on China's CCTV **Lunar New Year** gala",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "2065001b02509cadc4393befa48ea0e98a4eac93",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "Guess the movie  \n![](https://i.imgur.com/I7UkGiw.gif)",
+        "answers": [
+            "Boys Over Flowers",
+            "Summer Love",
+            "Legend of the Blue Sea",
+            "Faith"
+        ],
+        "type": "MOVIE_BY_IMAGE",
+        "id": "828c12923c71e66d86ec00dc00e77dc6fe551519",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "Guess the movie  \n![](https://i.imgur.com/KFR7wdz.gif)",
+        "answers": [
+            "Personal Taste",
+            "Legend of the Blue Sea",
+            "City Hunter",
+            "Secret Campus"
+        ],
+        "type": "MOVIE_BY_IMAGE",
+        "id": "b761d808cac22e8db6e14ae10741ab26e0257118",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "What was Lee's aspiration as a child?",
+        "answers": [
+            "To be an engineer",
+            "To be an actor",
+            "To be a football player",
+            "To be a doctor"
+        ],
+        "type": "GENERAL",
+        "id": "f8c77487ba1c8187b6ed673c1afcbff1507cde59",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "*True or False*: Lee's first wax figure was unveiled at the **Madame Tussauds Hong Kong**",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "1f5117a0022db54f22757357bb29ea413536e8ab",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "In which year was **City Hunter** released?",
+        "answers": [
+            "2012",
+            "2008",
+            "2011",
+            "2007"
+        ],
+        "type": "YEAR_BY_MOVIE",
+        "id": "16059438c1447519fbc18fcebc685a64f0b7d648",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "Guess the movie  \n![](https://i.imgur.com/xzPRuNb.gif)",
+        "answers": [
+            "City Hunter",
+            "The King: Eternal Monarch",
+            "Line Romance",
+            "Personal Taste"
+        ],
+        "type": "MOVIE_BY_IMAGE",
+        "id": "43c26622fe6bd198c4c20649f8d403b45adcf594",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "When is Lee's birthday?",
+        "answers": [
+            "June 20, 1987",
+            "June 22, 1987",
+            "July 20, 1987",
+            "July 22, 1986"
+        ],
+        "type": "GENERAL",
+        "id": "9861d8fb6c6bc9a05e44ab04ab07c630888f924d",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "*True or False*: Lee has *never* acted in an action movie",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "f4236bab65518f5a2aaa6208e8193ac0f0dcc415",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Guess the movie  \n![](https://i.imgur.com/yAERONO.gif)",
+        "answers": [
+            "City Hunter",
+            "Legend of the Blue Sea",
+            "Boys Over Flowers",
+            "Summer Love"
+        ],
+        "type": "MOVIE_BY_IMAGE",
+        "id": "4bd2ff6b0ba152845b29cfc336ba83339e50d4ac",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "What was Lee's stage name during early stage of his career?",
+        "answers": [
+            "Lee Min",
+            "Min-ho",
+            "Joon-woo",
+            "Mino"
+        ],
+        "type": "GENERAL",
+        "id": "f8c57cba8ae88631ab93349b272eda1f5c90585c",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "What is the character played by Lee in **Heirs**?",
+        "answers": [
+            "Lee Yun-seong",
+            "Kim Tan",
+            "Lee Gon",
+            "Choi Young"
+        ],
+        "type": "CHARACTER_BY_MOVIE",
+        "id": "0501fcefdc80ff652368224b7b85ee545cb8ea8b",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Where is Lee's official Instagram ID?",
+        "answers": [
+            "realleeminho",
+            "leeminho",
+            "officialleeminho",
+            "actorleeminho"
+        ],
+        "type": "GENERAL",
+        "id": "4e32f9397fbbfd144652c7824e9fe65e6aa700e7",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "What is the character played by Lee in **City Hunter**?",
+        "answers": [
+            "Goo Joon Pyo",
+            "Lee Yun-seong",
+            "Jeon Jin-Ho",
+            "Heo Joon Jae"
+        ],
+        "type": "CHARACTER_BY_MOVIE",
+        "id": "2d9e6f84f484f54b4e7a349b4a9e149994b1082f",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Which song was *not* included in Lee's **My Everything** album?",
+        "answers": [
+            "Love Motion",
+            "My Little Princes",
+            "Love Hurts",
+            "Pieces of Love"
+        ],
+        "type": "GENERAL",
+        "id": "9cdefb0ba4013c76eff54b2db612889ce30333ae",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "What is the character played by Lee in **The King: Eternal Monarch**?",
+        "answers": [
+            "Lee Yun-seong",
+            "Jo Nam Doo",
+            "Tae Oh",
+            "Lee Gon"
+        ],
+        "type": "CHARACTER_BY_MOVIE",
+        "id": "3949d6297f8a9f09adb44c4b3ff28face87a0bf1",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "In which year was **Seven First Kisses** released?",
+        "answers": [
+            "2018",
+            "2010",
+            "2016",
+            "2015"
+        ],
+        "type": "YEAR_BY_MOVIE",
+        "id": "f63514b27ecb459f1b694fb6a18b86955382772d",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "*True or False*: Lee only got to know he was cast of **Boys Over Flowers** from the newspapers",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "bf42cacc0b389cb900eb7cb40d47ee7cab8ac39e",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "In which university Lee completed his majors?",
+        "answers": [
+            "Konkuk University",
+            "Yonsei University",
+            "Kyung Hee University",
+            "Hongik University"
+        ],
+        "type": "GENERAL",
+        "id": "6e3426d5d06041aa408fa13defb762223113a3af",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "In which TV series Lee played the role of a young architect who poses as a gay man?",
+        "answers": [
+            "Faith",
+            "Secret Campus",
+            "The One & Only",
+            "Personal Taste"
+        ],
+        "type": "GENERAL",
+        "id": "afd61c397e151630cdc63b55718c2d5b2e74cfbb",
+        "correctAnswerIdx": 3
+    }
+]

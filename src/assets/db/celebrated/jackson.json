@@ -1,0 +1,294 @@
+[
+    {
+        "questionMd": "*True or False*: Michael Jackson is the **fifth child** of the family",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "07d5513f016ae5763eb6a0335e6ea5cc35f3cae2",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "*True or False*: **Lisa Marie Presley** appeared in Michael's music video Thriller",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "ef3959e3da09fe7f307ac0c7fd07798e93576e76",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "When did Michael Jackson perform the first moonwalk in front of a live audience?",
+        "answers": [
+            "1990",
+            "1985",
+            "1980",
+            "1983"
+        ],
+        "type": "GENERAL",
+        "id": "95f815d840e96d08654819ecfdba99454b91833b",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "Guess the music video  \n![](https://i.imgur.com/RuDYLSB.gif)",
+        "answers": [
+            "Smooth Criminal",
+            "Billie Jean",
+            "You Rock My World",
+            "Remember The Time"
+        ],
+        "type": "VIDEO_BY_IMAGE",
+        "id": "f4c1a4d1fc36e1fd8eb2ac3fac9a1c0d03755b34",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "In which song does Michael sing: *\"See that girl, she knows I'm watching. She likes the way I stare\"*?",
+        "answers": [
+            "The Way You Make Me Feel",
+            "The Girl Is Mine",
+            "Human Nature",
+            "She Drives Me Wild"
+        ],
+        "type": "SONG_BY_LYRICS",
+        "id": "99ead4b6c141baf63a8e3b9c89d90d2320f12de4",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "What skin condition did Michael suffer from?",
+        "answers": [
+            "Eczema",
+            "Vitiligo",
+            "Urticaria",
+            "Rosacea"
+        ],
+        "type": "GENERAL",
+        "id": "0166d8ba734e25f6aa8335707d68c55162bdd410",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Guess the music video  \n![](https://i.imgur.com/BjDzcj1.gif)",
+        "answers": [
+            "Billie Jean",
+            "Don't Stop 'til You Get Enough",
+            "Smooth Criminal",
+            "Black or White"
+        ],
+        "type": "VIDEO_BY_IMAGE",
+        "id": "422b381d4f35a55e9d3cd139e515c9073f70d8c9",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Guess the music video  \n![](https://i.imgur.com/jbv9F6j.gif)",
+        "answers": [
+            "Earth Song",
+            "They Don't Care About Us",
+            "Man In The Mirror",
+            "Black or White"
+        ],
+        "type": "VIDEO_BY_IMAGE",
+        "id": "f12e96fc674ef1489d5cedac13660f6088f05c44",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Guess the music video  \n![](https://i.imgur.com/2j1vle8.gif)",
+        "answers": [
+            "Human Nature",
+            "Earth Song",
+            "Stranger In Moscow",
+            "You Are Not Alone"
+        ],
+        "type": "VIDEO_BY_IMAGE",
+        "id": "a67aa31a553f8e41cb6949210b17bd9ac3a8df04",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "What did Michael Jackson dangle over the Berlin hotel balcony?",
+        "answers": [
+            "His signature fedora hat",
+            "His baby Prince Michael Jackson II",
+            "His write sequin glove",
+            "His jacket famous for Billie Jean performance"
+        ],
+        "type": "GENERAL",
+        "id": "cfb9ff385d9427490651cd968ffcbfa69b34f95d",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "*True or False*: Michael Jackson invented the **moonwalk**",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "3ee1363a5d56244562ae15e868303b7fa37bcca6",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "When is Michael Jackson's birthday?",
+        "answers": [
+            "June 25, 1958",
+            "August 29, 1958",
+            "August 27, 1959",
+            "June 29, 1960"
+        ],
+        "type": "GENERAL",
+        "id": "b0d7b7998d6f18acfbb5c16b53cc3f643d27e3f6",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "What is Michael Jackson's middle name?",
+        "answers": [
+            "James",
+            "Jeremy",
+            "Joseph",
+            "Jermaine"
+        ],
+        "type": "GENERAL",
+        "id": "40ab19645560556488201313dfaa61e459f2b317",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "In which song does Michael sing: *\"Mother always told me be careful of who you love. And be careful of what you do 'cause the lie becomes the truth\"*?",
+        "answers": [
+            "She's Out Of My Life",
+            "Billie Jean",
+            "Dangerous",
+            "Man in the Mirror"
+        ],
+        "type": "SONG_BY_LYRICS",
+        "id": "1b772ae8770cc5165876816fbff02c4a6ff1060f",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "In which song does Michael sing: *\"She likes the boys in the bands. She knows when they come to town\"*?",
+        "answers": [
+            "Liberian Girl",
+            "Billie Jean",
+            "Give In To Me",
+            "Dirty Diana"
+        ],
+        "type": "SONG_BY_LYRICS",
+        "id": "c495946b84fc4c96e00a9838f6d26fae90dccdeb",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "What is Michael's **best selling** album?",
+        "answers": [
+            "Bad",
+            "Invincible",
+            "Dangerous",
+            "Thriller"
+        ],
+        "type": "GENERAL",
+        "id": "85678217ed86ce6a7890b5a9b62b47b313cebe6e",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "When did Michael Jackson die?",
+        "answers": [
+            "June 25, 2008",
+            "June 25, 2009",
+            "July 25, 2008",
+            "July 25, 2009"
+        ],
+        "type": "GENERAL",
+        "id": "c1a38a80690229a244009cfebf9b687b5e6321c8",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "What did Michael Jackson *not* wear in his performance outfit?",
+        "answers": [
+            "Aviator sunglasses",
+            "White sequin glove",
+            "Multicolored socks",
+            "Fedora hat"
+        ],
+        "type": "GENERAL",
+        "id": "bdf92c9194629b75c2313491a45f37abf84cc69f",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "Which Michael Jackson album features the song **\"Liberian Girl\"**?",
+        "answers": [
+            "Bad",
+            "Thriller",
+            "Off the Wall",
+            "Dangerous"
+        ],
+        "type": "GENERAL",
+        "id": "e0c22693e28e0672b9931dd4fa46e1deeccd82aa",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "In which song does Michael sing: *\"Touch me and I feel on fire. Ain't nothin' like a love desire\"*?",
+        "answers": [
+            "Don’t Stop ’til You Get Enough",
+            "I Just Can't Stop Loving You",
+            "Heartbreaker",
+            "Give In To Me"
+        ],
+        "type": "SONG_BY_LYRICS",
+        "id": "b3b74f7f7f8785fbd96780a992d35f0a72fee718",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "What concert tour was Michael rehearsing for when he died?",
+        "answers": [
+            "HIStory World Tour",
+            "30th Anniversary Special Concert",
+            "Dangerous World Tour",
+            "This Is It"
+        ],
+        "type": "GENERAL",
+        "id": "2f394b6cabbc92de05085bc52f43bbf3531e50dd",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "*True or False*: Michael Jackson holds the world record for winning **most Grammy awards** in one night",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "aec6889fd434d85249bece5eed0088c3c1905102",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "What is the **most expensive** music video by Michael Jackson?",
+        "answers": [
+            "Black or White",
+            "Bad",
+            "Scream",
+            "Thriller"
+        ],
+        "type": "GENERAL",
+        "id": "9e93c564f0f44428bfeaa426b290669eb951654c",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "Guess the music video  \n![](https://i.imgur.com/D6xxaHc.gif)",
+        "answers": [
+            "Dirty Diana",
+            "Billie Jean",
+            "Scream",
+            "Give In To Me"
+        ],
+        "type": "VIDEO_BY_IMAGE",
+        "id": "10b3574a3a92718737cded5e830ff0048c22b03e",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "Who is *not* a sibling of Michael Jackson?",
+        "answers": [
+            "Janet",
+            "Rebbie",
+            "La Toya",
+            "Katherine"
+        ],
+        "type": "GENERAL",
+        "id": "310d40879f70db0c5eb2ceef0d5fa61cb87c22b1",
+        "correctAnswerIdx": 3
+    }
+]

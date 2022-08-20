@@ -1,0 +1,230 @@
+[
+    {
+        "questionMd": "*True or False*: Sri Lankan team led by Sanga was defeated by England in finals of **2009 ICC World Twenty20**",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "4375a5e35620d27927ed274a4af9c5ec78bdfb44",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "Against which team did Sanga score his first **Test century**?",
+        "answers": [
+            "England",
+            "South Africa",
+            "India",
+            "Zimbabwe"
+        ],
+        "type": "GENERAL",
+        "id": "fb2ee60416ff798afaee464c64bdb21bff1173a4",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "How many runs is the world record for the **highest partnership** in Test cricket set by Sanga and **Mahela**?",
+        "answers": [
+            "485",
+            "564",
+            "624",
+            "678"
+        ],
+        "type": "GENERAL",
+        "id": "f90ff1cc42d656bfbe0ac9a5d537a329a773299a",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "Sanga was involved in the highest ever partnership for any wicket in **ICC World T20** history. Who was the other player in this partnership?",
+        "answers": [
+            "TM Dilshan",
+            "Sanath Jayasuriya",
+            "Upul Tharanga",
+            "Mahela Jayawardene"
+        ],
+        "type": "GENERAL",
+        "id": "0ebb566b3c6d61df95ab3205635faf551daa3e1b",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "Which city Sanga is originally from?",
+        "answers": [
+            "Matale",
+            "Colombo",
+            "Galle",
+            "Hambantota"
+        ],
+        "type": "GENERAL",
+        "id": "9adf185891473471e3e8367d10de6c3354e58bf8",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "*True or False*: Sanga scored his first **double-century** against Pakistan in 2002",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "973662f6fd1e0a2ca84fb4278594762729dab281",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "Against which team did Sanga make his **ODI** debut?",
+        "answers": [
+            "Pakistan",
+            "Australia",
+            "India",
+            "South Africa"
+        ],
+        "type": "GENERAL",
+        "id": "5cad9f956b96952f19ef50d735de3e2bcc101ce8",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "In which final game did Sanga win the **Man of the Match** award to help Sri Lanka win the title?",
+        "answers": [
+            "2007 Cricket World Cup",
+            "2014 ICC World Twenty20",
+            "2009 ICC World Twenty20",
+            "2011 Cricket World Cup"
+        ],
+        "type": "GENERAL",
+        "id": "ae4539c923afe4f3abbab7077243b1d2ea152f39",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "In which year did Sanga score most runs in all formats of the game in **a calendar year**?",
+        "answers": [
+            "2011",
+            "2012",
+            "2013",
+            "2014"
+        ],
+        "type": "GENERAL",
+        "id": "7f6499c591540e17e7ea759125de052e2ed7b43a",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "Sanga has *not* been a part of which IPL franchise?",
+        "answers": [
+            "Sunrisers Hyderabad",
+            "Deccan Chargers",
+            "Kings XI Punjab",
+            "Pune Warriors"
+        ],
+        "type": "GENERAL",
+        "id": "e75b94f00172fa42907b48a7fcf5716ab78774aa",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "*True or False*: Sanga is the first player to win the award **Wisden Leading Cricketer in the World** twice",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "354e0d1cda9094050b523e852ba6bd8e5a3540d7",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "What is Sanga's middle name?",
+        "answers": [
+            "Harendra",
+            "Chokshanada",
+            "Chanuksha",
+            "Viloksha"
+        ],
+        "type": "GENERAL",
+        "id": "837b93c61df5842e1aecacd3d0ab34fcc48a40b9",
+        "correctAnswerIdx": 1
+    },
+    {
+        "questionMd": "What is Sanga's highest score in Test cricket?",
+        "answers": [
+            "290",
+            "300*",
+            "319",
+            "340"
+        ],
+        "type": "GENERAL",
+        "id": "f6d7df2ad3d06eedc8b818cb3038353e45e11bfd",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "When is Sanga's birthday?",
+        "answers": [
+            "December 23, 1975",
+            "September 20, 1976",
+            "October 27, 1977",
+            "November 22, 1978"
+        ],
+        "type": "GENERAL",
+        "id": "b777d8b10250252cb0f0cf867be1955b33a94a58",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "*True or False*: Sanga is the first batsman ever to score in **excess of 150 in four consecutive tests**",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "d92bcb086d7b961b4b7f541d9eeaf5ff8609a853",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "*True or False*: Sanga is the first *non-British* person to be appointed to the role of **President of the MCC**",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "86880c1b2b15b57f6d50f0b6cdc75b779224e386",
+        "correctAnswerIdx": 0
+    },
+    {
+        "questionMd": "In which year did Sanga win **ICC Cricketer of the Year**?",
+        "answers": [
+            "2010",
+            "2011",
+            "2012",
+            "2013"
+        ],
+        "type": "GENERAL",
+        "id": "ee0bdb79830a97e7a48b95cce969b6c69106cdbc",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "In which year did Sanga score his first Test century at **Lord's Cricket Ground** to fulfil his lifetime ambition?",
+        "answers": [
+            "2012",
+            "2013",
+            "2014",
+            "2015"
+        ],
+        "type": "GENERAL",
+        "id": "168f98cddbf05ca5934a1d79e0110fa8143074cb",
+        "correctAnswerIdx": 2
+    },
+    {
+        "questionMd": "How many **double centuries** has Sanga scored in his Test career?",
+        "answers": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "type": "GENERAL",
+        "id": "36fe97e313c546851e817a903d73950211b16edd",
+        "correctAnswerIdx": 3
+    },
+    {
+        "questionMd": "*True or False*: Sanga holds the record for **most stumpings** in a career as a wicketkeeper in ODIs",
+        "answers": [
+            "True",
+            "False"
+        ],
+        "type": "TOF",
+        "id": "d273717ea4185ae25448932c2d12e11316623420",
+        "correctAnswerIdx": 1
+    }
+]
