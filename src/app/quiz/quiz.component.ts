@@ -78,11 +78,41 @@ export class QuizComponent implements OnInit, OnDestroy {
     audio.play();
   }
 
+  correctAnswer(){
+    let audio = new Audio();
+    audio.src = "../../../assets/audio/correct_answer.mp3";
+    audio.load();
+    audio.play();
+  }
+
+  wrongAnswer(){
+    let audio = new Audio();
+    audio.src = "../../../assets/audio/wrong_answer.mp3";
+    audio.load();
+    audio.play();
+  }
+
+  newQuestion(){
+    let audio = new Audio();
+    audio.src = "../../../assets/audio/new_question.mp3";
+    audio.load();
+    audio.play();
+  }
+
+  countDown(){
+    let audio = new Audio();
+    audio.src = "../../../assets/audio/countdown_end.mp3";
+    audio.load();
+    audio.play();
+  }
+  
+
   startQuiz(){
     this.quizEnabled = true;
     this.quizIndex++;
     this.loadSeconds(true);
     this.loadMicroSeconds(true);
+    this.newQuestion();
   }
 
   selectedAnswer(index:any){
@@ -90,8 +120,10 @@ export class QuizComponent implements OnInit, OnDestroy {
     this.rightAnswerNumber = this.getroleDetails.quiz_collection[this.quizIndex].correctAnswerIdx;
     if(index == this.rightAnswerNumber){
       this.selectedRigthAnswer = true;
+      this.correctAnswer();
       this.totalScoreCount();
     }else{
+      this.wrongAnswer();
       this.countMicroSecondIncreamnet = 0;
       this.selectedRigthAnswer = false;
     }
@@ -107,6 +139,7 @@ export class QuizComponent implements OnInit, OnDestroy {
     this.resettingIntervalVarivale();
     this.loadSeconds(true);
     this.loadMicroSeconds(true);
+    this.newQuestion();
 
     if(this.getroleDetails.quiz_collection.length == this.quizIndex){
       this.scorePageEnabled = true;
