@@ -5,6 +5,7 @@
             "name": "⚽ sports",
             "type": "sports",
             "quiz_role": "cristiano-ronaldo",
+            "quiz_front_text": "Everyone loves Ronaldo! But can you outscore #CR7 fans in this quiz?",
             "quiz_start_image": "https://i.imgur.com/1BRHMcG.jpg",
             "quiz_collection": [
                 {
@@ -255,35 +256,2153 @@
         },
         {
             "col": "https://i.imgur.com/WP0dHycl.png",
-            "name": "🎬 entertainment"
+            "name": "🎬 entertainment",
+            "type": "entertainment",
+            "quiz_role": "bruno_mars",
+            "quiz_front_text": "How well do you know the pop icon Bruno Mars? This quiz is strictly for Mars' fans!",
+            "quiz_start_image": "https://i.imgur.com/yaR25AD.jpg",
+            "quiz_collection": [
+                {
+                    "questionMd": "*True or False*: **\"Money Make Her Smile\"** was a track featured in Mars' album **Doo-Wops & Hooligans**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "f83255cdaf9a76baa2d2b3148000632414d08757",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/3szlzsQ.gif"
+                },
+                {
+                    "questionMd": "In which song does Mars sing: *\"You got your legs up in the sky, with the devil in your eyes, let me hear you say you want it all\"*?",
+                    "answers": [
+                        "Runaway Baby",
+                        "Our First Time",
+                        "Young Girls",
+                        "Gorilla"
+                    ],
+                    "type": "SONG_BY_LYRICS",
+                    "id": "c8b0135e8689b32d410bef29b557e7bf3b160640",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/9PTZ7vr.gif"
+                },
+                {
+                    "questionMd": "Which instrument is played by Mars in his music band apart from being lead vocalist?",
+                    "answers": [
+                        "Drums",
+                        "Saxophone",
+                        "Guitar",
+                        "Keyboard"
+                    ],
+                    "type": "GENERAL",
+                    "id": "e6a1455239a88302b435b77d4698d4de5b5aa6aa",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/VTdrAtQ.jpg"
+                },
+                {
+                    "questionMd": "What is the opening track of Mars' album **Doo-Wops & Hooligans**?",
+                    "answers": [
+                        "Grenade",
+                        "Just the Way You Are",
+                        "The Lazy Song",
+                        "Marry You"
+                    ],
+                    "type": "GENERAL",
+                    "id": "3c023d1a35d0c9770e3fc66b8a0f92d338db50ae",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/EAqGCnV.jpg"
+                },
+                {
+                    "questionMd": "Guess the music video  \n![](https://i.imgur.com/9PTZ7vr.gif)",
+                    "answers": [
+                        "Gorilla",
+                        "The Lazy Song",
+                        "Uptown Funk",
+                        "24K Magic"
+                    ],
+                    "type": "VIDEO_BY_IMAGE",
+                    "id": "3d3f81ce5e0da7e832b97e38ce5dca6d80e9050a",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/HnQhAe9.jpg"
+                },
+                {
+                    "questionMd": "Which Mars' song won the **Song of the Year** Grammy Award in 2018?",
+                    "answers": [
+                        "Chunky",
+                        "That's What I Like",
+                        "Finesse",
+                        "24K Magic"
+                    ],
+                    "type": "GENERAL",
+                    "id": "c5d397c95e1049655d2e17ca7195d2a1281de846",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/mJ0k5rz.gif"
+                },
+                {
+                    "questionMd": "Which Mars' song can be heard from strippers' changing room in the opening scene of **Gorilla** music video?\"",
+                    "answers": [
+                        "Treasure",
+                        "Money Make Her Smile",
+                        "Moonshine",
+                        "Grenade"
+                    ],
+                    "type": "GENERAL",
+                    "id": "5f6c455e143b323adbe2881ab6dc0636ac6d0d3e",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/6QhdVvl.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Mars appeared in Time magazine's list of the 100 most influential people in the world in 2011",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "2fc1bc0b9abcd17e201e17e50def58ace91cee75",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/meUNiZX.jpg"
+                },
+                {
+                    "questionMd": "In which song does Mars sing: *\"You're everything I see in my dreams. I wouldn't say that to you if it wasn't true\"*?",
+                    "answers": [
+                        "Just the Way You Are",
+                        "Gorilla",
+                        "Natalie",
+                        "Treasure"
+                    ],
+                    "type": "SONG_BY_LYRICS",
+                    "id": "6d04a94f2be34c79c7356c5dcad2084cbfd3daa0",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/G7WcefX.jpg"
+                },
+                {
+                    "questionMd": "Guess the music video  \n![](https://i.imgur.com/rLSkdVj.gif)",
+                    "answers": [
+                        "When I Was Your Man",
+                        "That's What I Like",
+                        "Just the Way You Are",
+                        "It Will Rain"
+                    ],
+                    "type": "VIDEO_BY_IMAGE",
+                    "id": "1dd8e16ea1ffb8615515e250342518f2f0f4d617",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/I1GbkCP.jpg"
+                },
+                {
+                    "questionMd": "In which song does Mars sing: *\"Same bed but it feels just a little bit bigger now. Our song on the radio but it don't sound the same\"*?",
+                    "answers": [
+                        "When I Was Your Man",
+                        "It Will Rain",
+                        "Too Good to Say Goodbye",
+                        "Runaway Baby"
+                    ],
+                    "type": "SONG_BY_LYRICS",
+                    "id": "2ac41e74f31a221b42431a2388a8e2f2bf001cd0",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/Q1ZypiB.jpg"
+                },
+                {
+                    "questionMd": "When is Mars' birthday?",
+                    "answers": [
+                        "October 8, 1985",
+                        "October 10, 1984",
+                        "October 9, 1986",
+                        "October 11, 1984"
+                    ],
+                    "type": "GENERAL",
+                    "id": "e1a22af68757c13fbf6b2d08b056f04f9cc8a996",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/E19LznZ.gif"
+                },
+                {
+                    "questionMd": "*True or False*: Mars' single **\"It Will Rain\"** was the lead soundtrack of **The Twilight Saga: Eclipse**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "8ce8cd77be8790e1b81dc45588f307b77b58b7f7",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/aY26asD.jpg"
+                },
+                {
+                    "questionMd": "What is Mars' official Twitter handle?",
+                    "answers": [
+                        "@BrunoMars",
+                        "@MarsBruno",
+                        "@RealBruno",
+                        "@BrunoMarsOfficial"
+                    ],
+                    "type": "GENERAL",
+                    "id": "bd158f85274a82c8af6684292ef20b6ed6020621",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/0E23j3k.jpg"
+                },
+                {
+                    "questionMd": "Guess the music video  \n![](https://i.imgur.com/mJ0k5rz.gif)",
+                    "answers": [
+                        "24K Magic",
+                        "Gorilla",
+                        "Finesse",
+                        "Grenade"
+                    ],
+                    "type": "VIDEO_BY_IMAGE",
+                    "id": "78c175ea895644a6827aa882d141a47dbde18f8a",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/rLSkdVj.gif"
+                },
+                {
+                    "questionMd": "Guess the music video  \n![](https://i.imgur.com/E19LznZ.gif)",
+                    "answers": [
+                        "24K Magic",
+                        "Locked Out of Heaven",
+                        "Uptown Funk",
+                        "Finesse"
+                    ],
+                    "type": "VIDEO_BY_IMAGE",
+                    "id": "d6707694ff9b5f4de8cffd5b6b882f736727aedf",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/QyUQEyq.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Mars urinated himself during a performance of Elvis' \"Can't Help Falling in Love\" when he was five",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "8d64267c42a3910b1bcea60d66226e8e2f64520d",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/VTdrAtQ.jpg"
+                },
+                {
+                    "questionMd": "In which song does Mars sing: *\"I might mess around and get my college degree. I bet my old man will be so proud of me\"*?",
+                    "answers": [
+                        "Calling All My Lovelies",
+                        "The Lazy Song",
+                        "That's What I Like",
+                        "Count On Me"
+                    ],
+                    "type": "SONG_BY_LYRICS",
+                    "id": "1bbc317278cf03fa1fcd3238dc04769b751707d0",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/meUNiZX.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: **\"Versace on the Floor\"** was a track featured in Mars' album **Unorthodox Jukebox**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "ef02e62d32f6451401d90ab79881530af370b1f7",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/6QhdVvl.jpg"
+                },
+                {
+                    "questionMd": "What is Mars' real name?",
+                    "answers": [
+                        "Bruno Martinez",
+                        "Roger Williams",
+                        "Peter Hernandez",
+                        "Leo Martinez"
+                    ],
+                    "type": "GENERAL",
+                    "id": "fc6ad8be3e2ccfe4e10cb1a48bfecf99407691de",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/HnQhAe9.jpg"
+                },
+                {
+                    "questionMd": "Guess the music video  \n![](https://i.imgur.com/3szlzsQ.gif)",
+                    "answers": [
+                        "Just the Way You Are",
+                        "That's What I Like",
+                        "Grenade",
+                        "It Will Rain"
+                    ],
+                    "type": "VIDEO_BY_IMAGE",
+                    "id": "90469e5fd10f8b7690c45325678595a8eb5085e1",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/EAqGCnV.jpg"
+                },
+                {
+                    "questionMd": "What is the name of Mars' music band?",
+                    "answers": [
+                        "Flaming Lips",
+                        "The Hooligans",
+                        "Dark Floyd",
+                        "Smashing Pumpkins"
+                    ],
+                    "type": "GENERAL",
+                    "id": "8c008a63ec0d64045fe0e0a4fc9e4f33711f8592",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/VTdrAtQ.jpg"
+                },
+                {
+                    "questionMd": "Where is Mars originally from?",
+                    "answers": [
+                        "Miami, Florida",
+                        "Chicago, Illinois",
+                        "Honolulu, Hawaii",
+                        "Boston, Massachusetts"
+                    ],
+                    "type": "GENERAL",
+                    "id": "850638209fa3d4f7514903fa54f059bd6cc7426a",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/0E23j3k.jpg"
+                },
+                {
+                    "questionMd": "In which song does Mars sing: *\"Oh, it's not complicated, so this won't take a while, you see, music make her dance\"*?",
+                    "answers": [
+                        "Money Make Her Smile",
+                        "Natalie",
+                        "Young Girls",
+                        "Just the Way You Are"
+                    ],
+                    "type": "SONG_BY_LYRICS",
+                    "id": "eaed290d31df600f3d61c6530f24f2daa4c38f1c",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/QyUQEyq.jpg"
+                },
+                {
+                    "questionMd": "Mars got his nickname 'Bruno' as resemblance to whom?",
+                    "answers": [
+                        "Bruno Walter",
+                        "Bruno Kreisky",
+                        "Bruno Munari",
+                        "Bruno Sammartino"
+                    ],
+                    "type": "GENERAL",
+                    "id": "550ddd4407bbe7ac4913f0b4f54ccabaad37fe81",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/meUNiZX.jpg"
+                }
+            ]
         },
         {
             "col": "https://i.imgur.com/9kKznp7l.png",
-            "name": "🎬 entertainment"
+            "name": "🎬 entertainment",
+            "type": "entertainment",
+            "quiz_role": "bts-jungkook",
+            "quiz_front_text": "Is Jungkook your BTS fave? Of course, he is sweet as a cookie!",
+            "quiz_start_image": "https://i.imgur.com/u6HzuzJ.jpg",
+            "quiz_collection": [
+                {
+                    "questionMd": "Which **Justin Beiber** song has Jungkook covered?",
+                    "answers": [
+                        "Somebody To Love",
+                        "Baby",
+                        "Boyfriend",
+                        "Purpose"
+                    ],
+                    "type": "GENERAL",
+                    "id": "e34d73e5f4a869d50a4cdc430bc200b27650e9df",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/rv1QHgx.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Jungkook was the most searched K-pop artist on YouTube in both 2019 and 2020",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "a2b6c671e59ff0756e6e89d72fdd7e7c2f414b61",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/VXgDVfT.jpg"
+                },
+                {
+                    "questionMd": "Where is Jungkook's official Instagram ID?",
+                    "answers": [
+                        "jungkookie",
+                        "bts.jungkook",
+                        "jung.kook",
+                        "jungkook.official"
+                    ],
+                    "type": "GENERAL",
+                    "id": "7eba1c951860f4a8ae799e21971a1770db9bfb1f",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/VXgDVfT.jpg"
+                },
+                {
+                    "questionMd": "Who would Jungkook love to sing a duet with?",
+                    "answers": [
+                        "Jennie",
+                        "Jung Eun-ji",
+                        "Hwasa",
+                        "IU"
+                    ],
+                    "type": "GENERAL",
+                    "id": "fdd742c36e038963e93f68df0d5fcafe1a4c44dd",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/yLk4HlI.jpg"
+                },
+                {
+                    "questionMd": "When is Jungkook's birthday?",
+                    "answers": [
+                        "September 1, 1996",
+                        "September 1, 1997",
+                        "October 1, 1997",
+                        "October 5, 1996"
+                    ],
+                    "type": "GENERAL",
+                    "id": "e731c58d335ba8c7acb3b119a6f34ec7cf1b60b8",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/VXgDVfT.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Jungkook's blood group is **AB**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "dab8b6bb229508481f4e7116d16cd8d7cd8769af",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/qBxi3iT.jpg"
+                },
+                {
+                    "questionMd": "What is Jungkook's nickname?",
+                    "answers": [
+                        "Bon Bon",
+                        "Honey",
+                        "Puppy",
+                        "Bunny"
+                    ],
+                    "type": "GENERAL",
+                    "id": "0c481383cab6dbdd46dd90de600249f94c17b3f2",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/0Gm3YD3.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Jungkook covered **Justin Beiber** song *\"Nothing Like Us\"*",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "789cf1b821d436f2d553fef5d248f259d6d2400d",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/wcpwQ15.jpg"
+                },
+                {
+                    "questionMd": "What is Jungkook's zodiac sign?",
+                    "answers": [
+                        "Gemini",
+                        "Leo",
+                        "Virgo",
+                        "Cancer"
+                    ],
+                    "type": "GENERAL",
+                    "id": "e708891a838d0ee8188b8b204822a3b4c2878a8d",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/rv1QHgx.jpg"
+                },
+                {
+                    "questionMd": "What was Jungkook's aspiration as a child?",
+                    "answers": [
+                        "To be an actor",
+                        "To be a doctor",
+                        "To be a singer",
+                        "To be a badminton player"
+                    ],
+                    "type": "GENERAL",
+                    "id": "ea8aaf5552b50ea394c14068955c8e215f786114",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/VXgDVfT.jpg"
+                }
+            ]
         },
         {
             "col": "https://i.imgur.com/3ICzrlYl.png",
-            "name": "⚽ sports"
+            "name": "⚽ sports",
+            "type": "entertainment",
+            "quiz_role": "kumar-sangakkara",
+            "quiz_front_text": "You think you know all about Sri Lankan Cricketing Legend? You are not a true fan unless you score 20/20!",
+            "quiz_start_image": "https://i.imgur.com/GNnpAWb.jpg",
+            "quiz_collection": [
+                {
+                    "questionMd": "*True or False*: Sri Lankan team led by Sanga was defeated by England in finals of **2009 ICC World Twenty20**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "4375a5e35620d27927ed274a4af9c5ec78bdfb44",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/0m8I4cn.jpg"
+                },
+                {
+                    "questionMd": "Against which team did Sanga score his first **Test century**?",
+                    "answers": [
+                        "England",
+                        "South Africa",
+                        "India",
+                        "Zimbabwe"
+                    ],
+                    "type": "GENERAL",
+                    "id": "fb2ee60416ff798afaee464c64bdb21bff1173a4",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/7nS8op9.jpg"
+                },
+                {
+                    "questionMd": "How many runs is the world record for the **highest partnership** in Test cricket set by Sanga and **Mahela**?",
+                    "answers": [
+                        "485",
+                        "564",
+                        "624",
+                        "678"
+                    ],
+                    "type": "GENERAL",
+                    "id": "f90ff1cc42d656bfbe0ac9a5d537a329a773299a",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/Hw80CE4.jpg"
+                },
+                {
+                    "questionMd": "Sanga was involved in the highest ever partnership for any wicket in **ICC World T20** history. Who was the other player in this partnership?",
+                    "answers": [
+                        "TM Dilshan",
+                        "Sanath Jayasuriya",
+                        "Upul Tharanga",
+                        "Mahela Jayawardene"
+                    ],
+                    "type": "GENERAL",
+                    "id": "0ebb566b3c6d61df95ab3205635faf551daa3e1b",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/ohM85CO.jpg"
+                },
+                {
+                    "questionMd": "Which city Sanga is originally from?",
+                    "answers": [
+                        "Matale",
+                        "Colombo",
+                        "Galle",
+                        "Hambantota"
+                    ],
+                    "type": "GENERAL",
+                    "id": "9adf185891473471e3e8367d10de6c3354e58bf8",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/7vd364J.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Sanga scored his first **double-century** against Pakistan in 2002",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "973662f6fd1e0a2ca84fb4278594762729dab281",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/IC5mYSH.jpg"
+                },
+                {
+                    "questionMd": "Against which team did Sanga make his **ODI** debut?",
+                    "answers": [
+                        "Pakistan",
+                        "Australia",
+                        "India",
+                        "South Africa"
+                    ],
+                    "type": "GENERAL",
+                    "id": "5cad9f956b96952f19ef50d735de3e2bcc101ce8",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/LJJBoPU.jpg"
+                },
+                {
+                    "questionMd": "In which final game did Sanga win the **Man of the Match** award to help Sri Lanka win the title?",
+                    "answers": [
+                        "2007 Cricket World Cup",
+                        "2014 ICC World Twenty20",
+                        "2009 ICC World Twenty20",
+                        "2011 Cricket World Cup"
+                    ],
+                    "type": "GENERAL",
+                    "id": "ae4539c923afe4f3abbab7077243b1d2ea152f39",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/rrqEomV.jpg"
+                },
+                {
+                    "questionMd": "In which year did Sanga score most runs in all formats of the game in **a calendar year**?",
+                    "answers": [
+                        "2011",
+                        "2012",
+                        "2013",
+                        "2014"
+                    ],
+                    "type": "GENERAL",
+                    "id": "7f6499c591540e17e7ea759125de052e2ed7b43a",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/YOJkY8A.jpg"
+                },
+                {
+                    "questionMd": "Sanga has *not* been a part of which IPL franchise?",
+                    "answers": [
+                        "Sunrisers Hyderabad",
+                        "Deccan Chargers",
+                        "Kings XI Punjab",
+                        "Pune Warriors"
+                    ],
+                    "type": "GENERAL",
+                    "id": "e75b94f00172fa42907b48a7fcf5716ab78774aa",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/pD3m2Um.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Sanga is the first player to win the award **Wisden Leading Cricketer in the World** twice",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "354e0d1cda9094050b523e852ba6bd8e5a3540d7",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/0m8I4cn.jpg"
+                },
+                {
+                    "questionMd": "What is Sanga's middle name?",
+                    "answers": [
+                        "Harendra",
+                        "Chokshanada",
+                        "Chanuksha",
+                        "Viloksha"
+                    ],
+                    "type": "GENERAL",
+                    "id": "837b93c61df5842e1aecacd3d0ab34fcc48a40b9",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/7nS8op9.jpg"
+                },
+                {
+                    "questionMd": "What is Sanga's highest score in Test cricket?",
+                    "answers": [
+                        "290",
+                        "300*",
+                        "319",
+                        "340"
+                    ],
+                    "type": "GENERAL",
+                    "id": "f6d7df2ad3d06eedc8b818cb3038353e45e11bfd",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/Hw80CE4.jpg"
+                },
+                {
+                    "questionMd": "When is Sanga's birthday?",
+                    "answers": [
+                        "December 23, 1975",
+                        "September 20, 1976",
+                        "October 27, 1977",
+                        "November 22, 1978"
+                    ],
+                    "type": "GENERAL",
+                    "id": "b777d8b10250252cb0f0cf867be1955b33a94a58",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/ohM85CO.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Sanga is the first batsman ever to score in **excess of 150 in four consecutive tests**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "d92bcb086d7b961b4b7f541d9eeaf5ff8609a853",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/0m8I4cn.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Sanga is the first *non-British* person to be appointed to the role of **President of the MCC**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "86880c1b2b15b57f6d50f0b6cdc75b779224e386",
+                    "correctAnswerIdx": 0
+                },
+                {
+                    "questionMd": "In which year did Sanga win **ICC Cricketer of the Year**?",
+                    "answers": [
+                        "2010",
+                        "2011",
+                        "2012",
+                        "2013"
+                    ],
+                    "type": "GENERAL",
+                    "id": "ee0bdb79830a97e7a48b95cce969b6c69106cdbc",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/7nS8op9.jpg"
+                },
+                {
+                    "questionMd": "In which year did Sanga score his first Test century at **Lord's Cricket Ground** to fulfil his lifetime ambition?",
+                    "answers": [
+                        "2012",
+                        "2013",
+                        "2014",
+                        "2015"
+                    ],
+                    "type": "GENERAL",
+                    "id": "168f98cddbf05ca5934a1d79e0110fa8143074cb",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/Hw80CE4.jpg"
+                },
+                {
+                    "questionMd": "How many **double centuries** has Sanga scored in his Test career?",
+                    "answers": [
+                        "8",
+                        "9",
+                        "10",
+                        "11"
+                    ],
+                    "type": "GENERAL",
+                    "id": "36fe97e313c546851e817a903d73950211b16edd",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/ohM85CO.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Sanga holds the record for **most stumpings** in a career as a wicketkeeper in ODIs",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "d273717ea4185ae25448932c2d12e11316623420",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/IC5mYSH.jpg"
+                }
+            ]
         },
         {
             "col": "https://i.imgur.com/OF8gq9Hl.png",
-            "name": "🎬 entertainment"
+            "name": "🎬 entertainment",
+            "type": "entertainment",
+            "quiz_role": "lee-min-ho",
+            "quiz_front_text": "Only true fans of Lee can score 20/20 in this quiz! Take the quiz to prove it!",
+            "quiz_start_image": "https://i.imgur.com/bTWjeok.jpg",
+            "quiz_collection": [
+                {
+                    "questionMd": "*True or False*: Lee was the first Korean celebrity to perform on China's CCTV **Lunar New Year** gala",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "2065001b02509cadc4393befa48ea0e98a4eac93",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/rkigfpn.jpg"
+                },
+                {
+                    "questionMd": "Guess the movie  \n![](https://i.imgur.com/I7UkGiw.gif)",
+                    "answers": [
+                        "Boys Over Flowers",
+                        "Summer Love",
+                        "Legend of the Blue Sea",
+                        "Faith"
+                    ],
+                    "type": "MOVIE_BY_IMAGE",
+                    "id": "828c12923c71e66d86ec00dc00e77dc6fe551519",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/YhOfagI.jpg"
+                },
+                {
+                    "questionMd": "Guess the movie  \n![](https://i.imgur.com/KFR7wdz.gif)",
+                    "answers": [
+                        "Personal Taste",
+                        "Legend of the Blue Sea",
+                        "City Hunter",
+                        "Secret Campus"
+                    ],
+                    "type": "MOVIE_BY_IMAGE",
+                    "id": "b761d808cac22e8db6e14ae10741ab26e0257118",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/gkcPwkm.jpg"
+                },
+                {
+                    "questionMd": "What was Lee's aspiration as a child?",
+                    "answers": [
+                        "To be an engineer",
+                        "To be an actor",
+                        "To be a football player",
+                        "To be a doctor"
+                    ],
+                    "type": "GENERAL",
+                    "id": "f8c77487ba1c8187b6ed673c1afcbff1507cde59",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/yAERONO.gif"
+                },
+                {
+                    "questionMd": "*True or False*: Lee's first wax figure was unveiled at the **Madame Tussauds Hong Kong**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "1f5117a0022db54f22757357bb29ea413536e8ab",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/KFR7wdz.gif"
+                },
+                {
+                    "questionMd": "In which year was **City Hunter** released?",
+                    "answers": [
+                        "2012",
+                        "2008",
+                        "2011",
+                        "2007"
+                    ],
+                    "type": "YEAR_BY_MOVIE",
+                    "id": "16059438c1447519fbc18fcebc685a64f0b7d648",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/I7UkGiw.gif"
+                },
+                {
+                    "questionMd": "Guess the movie  \n![](https://i.imgur.com/xzPRuNb.gif)",
+                    "answers": [
+                        "City Hunter",
+                        "The King: Eternal Monarch",
+                        "Line Romance",
+                        "Personal Taste"
+                    ],
+                    "type": "MOVIE_BY_IMAGE",
+                    "id": "43c26622fe6bd198c4c20649f8d403b45adcf594",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/0c1PWNX.jpg"
+                },
+                {
+                    "questionMd": "When is Lee's birthday?",
+                    "answers": [
+                        "June 20, 1987",
+                        "June 22, 1987",
+                        "July 20, 1987",
+                        "July 22, 1986"
+                    ],
+                    "type": "GENERAL",
+                    "id": "9861d8fb6c6bc9a05e44ab04ab07c630888f924d",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/YBNgAmH.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Lee has *never* acted in an action movie",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "f4236bab65518f5a2aaa6208e8193ac0f0dcc415",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/0k4axJ4.jpg"
+                },
+                {
+                    "questionMd": "Guess the movie  \n![](https://i.imgur.com/yAERONO.gif)",
+                    "answers": [
+                        "City Hunter",
+                        "Legend of the Blue Sea",
+                        "Boys Over Flowers",
+                        "Summer Love"
+                    ],
+                    "type": "MOVIE_BY_IMAGE",
+                    "id": "4bd2ff6b0ba152845b29cfc336ba83339e50d4ac",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/eD9XJya.jpg"
+                },
+                {
+                    "questionMd": "What was Lee's stage name during early stage of his career?",
+                    "answers": [
+                        "Lee Min",
+                        "Min-ho",
+                        "Joon-woo",
+                        "Mino"
+                    ],
+                    "type": "GENERAL",
+                    "id": "f8c57cba8ae88631ab93349b272eda1f5c90585c",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/EbjszMT.jpg"
+                },
+                {
+                    "questionMd": "What is the character played by Lee in **Heirs**?",
+                    "answers": [
+                        "Lee Yun-seong",
+                        "Kim Tan",
+                        "Lee Gon",
+                        "Choi Young"
+                    ],
+                    "type": "CHARACTER_BY_MOVIE",
+                    "id": "0501fcefdc80ff652368224b7b85ee545cb8ea8b",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/dK5Ap9X.jpg"
+                },
+                {
+                    "questionMd": "Where is Lee's official Instagram ID?",
+                    "answers": [
+                        "realleeminho",
+                        "leeminho",
+                        "officialleeminho",
+                        "actorleeminho"
+                    ],
+                    "type": "GENERAL",
+                    "id": "4e32f9397fbbfd144652c7824e9fe65e6aa700e7",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/HYa2KA9.jpg"
+                },
+                {
+                    "questionMd": "What is the character played by Lee in **City Hunter**?",
+                    "answers": [
+                        "Goo Joon Pyo",
+                        "Lee Yun-seong",
+                        "Jeon Jin-Ho",
+                        "Heo Joon Jae"
+                    ],
+                    "type": "CHARACTER_BY_MOVIE",
+                    "id": "2d9e6f84f484f54b4e7a349b4a9e149994b1082f",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/rkigfpn.jpg"
+                },
+                {
+                    "questionMd": "Which song was *not* included in Lee's **My Everything** album?",
+                    "answers": [
+                        "Love Motion",
+                        "My Little Princes",
+                        "Love Hurts",
+                        "Pieces of Love"
+                    ],
+                    "type": "GENERAL",
+                    "id": "9cdefb0ba4013c76eff54b2db612889ce30333ae",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/rkigfpn.jpg"
+                },
+                {
+                    "questionMd": "What is the character played by Lee in **The King: Eternal Monarch**?",
+                    "answers": [
+                        "Lee Yun-seong",
+                        "Jo Nam Doo",
+                        "Tae Oh",
+                        "Lee Gon"
+                    ],
+                    "type": "CHARACTER_BY_MOVIE",
+                    "id": "3949d6297f8a9f09adb44c4b3ff28face87a0bf1",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/YhOfagI.jpg"
+                },
+                {
+                    "questionMd": "In which year was **Seven First Kisses** released?",
+                    "answers": [
+                        "2018",
+                        "2010",
+                        "2016",
+                        "2015"
+                    ],
+                    "type": "YEAR_BY_MOVIE",
+                    "id": "f63514b27ecb459f1b694fb6a18b86955382772d",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/gkcPwkm.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Lee only got to know he was cast of **Boys Over Flowers** from the newspapers",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "bf42cacc0b389cb900eb7cb40d47ee7cab8ac39e",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/0c1PWNX.jpg"
+                },
+                {
+                    "questionMd": "In which university Lee completed his majors?",
+                    "answers": [
+                        "Konkuk University",
+                        "Yonsei University",
+                        "Kyung Hee University",
+                        "Hongik University"
+                    ],
+                    "type": "GENERAL",
+                    "id": "6e3426d5d06041aa408fa13defb762223113a3af",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/YBNgAmH.jpg"
+                },
+                {
+                    "questionMd": "In which TV series Lee played the role of a young architect who poses as a gay man?",
+                    "answers": [
+                        "Faith",
+                        "Secret Campus",
+                        "The One & Only",
+                        "Personal Taste"
+                    ],
+                    "type": "GENERAL",
+                    "id": "afd61c397e151630cdc63b55718c2d5b2e74cfbb",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/0k4axJ4.jpg"
+                }
+            ]
         },
         {
             "col": "https://i.imgur.com/6qbbEBbl.png",
-            "name": "⚽ sports"
+            "name": "⚽ sports",
+            "type": "entertainment",
+            "quiz_role": "rafael-nadal",
+            "quiz_front_text": "How well do you know King of Clay? This quiz is a must take for tennis fans!",
+            "quiz_start_image": "https://i.imgur.com/qWi5stW.jpg",
+            "quiz_collection": [
+                {
+                    "questionMd": "What is Nadal's autobiography called?",
+                    "answers": [
+                        "King of Clay",
+                        "Facing Nadal",
+                        "Open",
+                        "Rafa: My Story"
+                    ],
+                    "type": "GENERAL",
+                    "id": "d3f47c4bb11545b405bec61589cc05abb99e3b71",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/ACSut1J.jpg"
+                },
+                {
+                    "questionMd": "What other sport Nadal enjoys playing in addition to tennis and football?",
+                    "answers": [
+                        "Badminton",
+                        "Baseball",
+                        "Basketball",
+                        "Golf"
+                    ],
+                    "type": "GENERAL",
+                    "id": "55a28dfa6c772061a11c36756fcbd5e0e968e025",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/YUfskO3.jpg"
+                },
+                {
+                    "questionMd": "What is Nadal's height?",
+                    "answers": [
+                        "5 ft 8 in",
+                        "5 ft 10 in",
+                        "6 ft 1 in",
+                        "6 ft 4 in"
+                    ],
+                    "type": "GENERAL",
+                    "id": "bc3bb139e5878d92a189e3adfbd906a4120f8157",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/ddZK6yy.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Nadal has **Barcelona** centre court named after him",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "e079ee0f11012e5dcda5fd276af0e0e693e286d6",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/aKt78aV.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Nadal always used to wear a watch on-court from his early days",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "35c582972eb5299d5c5325f0f3dc0b6f924dd006",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/KcjSDDw.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Nadal's match against **Roger Federer** in 2008 is the **longest final** in Wimbledon history (4 hr 48 min)",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "8e1b3b668f60ff2f4763aaa5fb8fd2fbfca76a18",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/KcjSDDw.jpg"
+                },
+                {
+                    "questionMd": "Which player defeated Nadal to end his streak of 31 wins in a row in **2009 French Open**?",
+                    "answers": [
+                        "Roger Federer",
+                        "Robin Söderling",
+                        "Stefan Edberg",
+                        "Novak Djokovic"
+                    ],
+                    "type": "GENERAL",
+                    "id": "a06c11a6ae8a1491dac4d9b935781b62a412b80c",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/ZeNYxcT.jpg"
+                },
+                {
+                    "questionMd": "As of 2020, how many times has Nadal defeated **Roger Federer** in the **French Open** final?",
+                    "answers": [
+                        "3 times",
+                        "4 times",
+                        "5 times",
+                        "6 times"
+                    ],
+                    "type": "GENERAL",
+                    "id": "f6fa4622f0f685863f774db00a33050b69733f15",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/NaqcGIq.jpg"
+                },
+                {
+                    "questionMd": "Which Gland Slam Champion did Nadal defeat at an exhibition match when he was 15 years old?",
+                    "answers": [
+                        "Pat Cash",
+                        "Stefan Edberg",
+                        "Pat Rafter",
+                        "Mats Wilander"
+                    ],
+                    "type": "GENERAL",
+                    "id": "db615b4b2efd54999f56e79078abd642fca4604e",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/ACSut1J.jpg"
+                },
+                {
+                    "questionMd": "In which music video Nadal appeared in 2010?",
+                    "answers": [
+                        "Just the way you are – Bruno Mars",
+                        "The Cup of Life – Ricky Martin",
+                        "Gypsy – Shakira",
+                        "Escape – Enrique Iglesias"
+                    ],
+                    "type": "GENERAL",
+                    "id": "fa2191fbb3afa591e68b1bdb45139d395593ea58",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/ACSut1J.jpg"
+                },
+                {
+                    "questionMd": "How old was Nadal when he won under-12 regional tennis championship?",
+                    "answers": [
+                        "8 years",
+                        "9 years",
+                        "10 years",
+                        "11 years"
+                    ],
+                    "type": "GENERAL",
+                    "id": "5c5dd96ebeffcb19d6880a35961b9746937ad40c",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/YUfskO3.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Nadal is the only player to have ever finished **four consecutive calendar years** at the top",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "01dfb2b6eb3f749073c42db346ed807f54e17660",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/ddZK6yy.jpg"
+                },
+                {
+                    "questionMd": "Who did Nadal win his first ATP match against?",
+                    "answers": [
+                        "Stefan Koubek",
+                        "Stefan Edberg",
+                        "Goran Ivanišević",
+                        "Ramón Delgado"
+                    ],
+                    "type": "GENERAL",
+                    "id": "5b705ddf959bb31c53cbb561614e46266637b690",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/aKt78aV.jpg"
+                },
+                {
+                    "questionMd": "Nadal was a promising football player too. Who made Nadal choose one between football and tennis?",
+                    "answers": [
+                        "Father",
+                        "Mother",
+                        "Uncle",
+                        "Girlfriend"
+                    ],
+                    "type": "GENERAL",
+                    "id": "98cdd798fe399a1fe15f42fa9dc4f6936b117ee7",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/KcjSDDw.jpg"
+                },
+                {
+                    "questionMd": "Which year was Nadal born?",
+                    "answers": [
+                        "1984",
+                        "1985",
+                        "1986",
+                        "1987"
+                    ],
+                    "type": "GENERAL",
+                    "id": "54dfffd211559d1bbad76a131ad8cdc0475e5418",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/KcjSDDw.jpg"
+                },
+                {
+                    "questionMd": "As of 2020, how many **Wimbledon** singles finals has Nadal played in?",
+                    "answers": [
+                        "Two",
+                        "Three",
+                        "Four",
+                        "Five"
+                    ],
+                    "type": "GENERAL",
+                    "id": "6fb0f7f645ebfe13a30d2f9d9af5368da4172e0d",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/ZeNYxcT.jpg"
+                },
+                {
+                    "questionMd": "Who was Nadal's uncle who introduced him to the game of tennis?",
+                    "answers": [
+                        "Miguel",
+                        "Toni",
+                        "Toby",
+                        "Sebastián"
+                    ],
+                    "type": "GENERAL",
+                    "id": "d3a909c5ef71db9f87e1e4590d5bffabb66a0965",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/NaqcGIq.jpg"
+                },
+                {
+                    "questionMd": "As of 2020, how many times Nadal has won **Wimbledon** singles?",
+                    "answers": [
+                        "Never",
+                        "Once",
+                        "Twice",
+                        "Thrice"
+                    ],
+                    "type": "GENERAL",
+                    "id": "576d2ba525bbac8d655280bdb76787bfc655bad3",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/ACSut1J.jpg"
+                },
+                {
+                    "questionMd": "Where is Nadal originally from?",
+                    "answers": [
+                        "Gran Canaria, Spain",
+                        "Mallorca, Spain",
+                        "Formentera, Spain",
+                        "La Gomera, Spain"
+                    ],
+                    "type": "GENERAL",
+                    "id": "bd44cf6e085e624df01801c3541fb87d8b54cba6",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/ACSut1J.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Nadal is the only player who has defeated **Roger Federer** in the final of a **Grand Slam** on grass, hard, and clay surfaces",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "7d3432712bde06a2198a3dd0b83c8e734c82bc7e",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/ddZK6yy.jpg"
+                }
+            ]
         },
         {
             "col": "https://i.imgur.com/yN1154vl.png",
-            "name": "⚽ sports"
+            "name": "⚽ sports",
+            "type": "entertainment",
+            "quiz_role": "lionel-messi",
+            "quiz_front_text": "How well do you know the Argentina and Barcelona soccer superstar? Take this quiz and prove your fandom!",
+            "quiz_start_image": "https://i.imgur.com/x6fDntd.jpg",
+            "quiz_collection": [
+                {
+                    "questionMd": "What is Messi's jersey number?",
+                    "answers": [
+                        "10",
+                        "33",
+                        "28",
+                        "16"
+                    ],
+                    "type": "GENERAL",
+                    "id": "daf6033ac98f4565c62d4dce92775bd3511a9aca",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/OQKEiZa.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: As of 2020, Messi has scored **60 hat-tricks** in his career",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "8d339756d0b23a076a098fab5c8f57d58a39af2b",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/bwLsMqw.jpg"
+                },
+                {
+                    "questionMd": "Who was Messi's favorite soccer star when he was kid?",
+                    "answers": [
+                        "Pablo Aimar",
+                        "Wayne Rooney",
+                        "Diego Maradona",
+                        "Ronaldinho"
+                    ],
+                    "type": "GENERAL",
+                    "id": "009f0980a56d5f92cb8eeba2cc770feac758b576",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/eSNveth.jpg"
+                },
+                {
+                    "questionMd": "Against which team did Messi score his **fastest hat-trick** *(11 minutes)* for Barcelona?",
+                    "answers": [
+                        "Rayo Vallecano",
+                        "Sevilla FC",
+                        "Real Madrid C.F.",
+                        "Atlético Madrid"
+                    ],
+                    "type": "GENERAL",
+                    "id": "449ed47bee0cd65764011eb53d03c108863ea579",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/fUVy9eb.jpg"
+                },
+                {
+                    "questionMd": "How long did Messi last in his **2005 international debut** before he receive a red card?",
+                    "answers": [
+                        "43 seconds",
+                        "58 seconds",
+                        "1 minute, 10 seconds",
+                        "1 minute, 43 seconds"
+                    ],
+                    "type": "GENERAL",
+                    "id": "1567e242944bf60c399aabe3d078ae6f76a6a359",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/2cxuiUl.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Messi is the first football player in the world to win **three European Golden Shoe Awards**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "9033a8fafb1a4801c10a1abf7e01d0fffbc09fea",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/5Qnq9MB.jpg"
+                },
+                {
+                    "questionMd": "Which country Argentina lose against in Messi's **first FIFA World Cup** as captain?",
+                    "answers": [
+                        "Brazil",
+                        "France",
+                        "Netherlands",
+                        "Germany"
+                    ],
+                    "type": "GENERAL",
+                    "id": "6ebafa27839b352bdffa5b869e0a558d763f92ff",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/dEbQw4P.jpg"
+                },
+                {
+                    "questionMd": "Messi's children in the order of age *(from eldest to youngest)*?",
+                    "answers": [
+                        "Ciro, Thiago, Mateo",
+                        "Mateo, Ciro, Thiago",
+                        "Thiago, Mateo, Ciro",
+                        "Mateo, Thiago, Ciro"
+                    ],
+                    "type": "GENERAL",
+                    "id": "7ab16aed616fe589910529ea847b1189159e9ebe",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/3C5On1z.jpg"
+                },
+                {
+                    "questionMd": "How many goals did Messi score in 2012 to set the world record for **most goals in a year**?",
+                    "answers": [
+                        "78",
+                        "81",
+                        "85",
+                        "91"
+                    ],
+                    "type": "GENERAL",
+                    "id": "90a5cedf05cf77b371a4f48caabacc3a5e047440",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/6GMUJ2n.jpg"
+                },
+                {
+                    "questionMd": "Where is Messi's official Instagram ID?",
+                    "answers": [
+                        "messigram",
+                        "lionelmessi",
+                        "leomessi",
+                        "realmessi"
+                    ],
+                    "type": "GENERAL",
+                    "id": "12faff403b37f26a873efe12535f46c25f03759c",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/OQKEiZa.jpg"
+                },
+                {
+                    "questionMd": "Where is Messi originally from?",
+                    "answers": [
+                        "Córdoba, Argentina",
+                        "Rosario, Argentina",
+                        "Ezeiza, Argentina",
+                        "Buenos Aires, Argentina"
+                    ],
+                    "type": "GENERAL",
+                    "id": "6c98ee05c952617eb2310ae4e18ea6ba8461c833",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/bwLsMqw.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Argentina team led by Messi could *only* manage a win against **Croatia** in **2018 FIFA World Cup**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "1d620e5224e3ed6236535f315751dde98e4fff13",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/eSNveth.jpg"
+                },
+                {
+                    "questionMd": "When is Messi's birthday?",
+                    "answers": [
+                        "June 27, 1986",
+                        "June 24, 1987",
+                        "July 24, 1987",
+                        "July 22, 1988"
+                    ],
+                    "type": "GENERAL",
+                    "id": "1be42d1ef571b0859778bae0a8e416d102581c34",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/fUVy9eb.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Messi scored with **a header** in 2009 Champions League final against Manchester United",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "1b2ab4c9548a1cfbe4ca63b3369256a55451066b",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/OQKEiZa.jpg"
+                },
+                {
+                    "questionMd": "Which year did Messi **first** win the **Ballon d'Or award** for the world's best player?",
+                    "answers": [
+                        "2007",
+                        "2008",
+                        "2009",
+                        "2010"
+                    ],
+                    "type": "GENERAL",
+                    "id": "0b17388f11eb17372c47b6b55ea853853a72d6d3",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/bwLsMqw.jpg"
+                },
+                {
+                    "questionMd": "Where has Messi tattooed his mother's portrait?",
+                    "answers": [
+                        "Left side of his back",
+                        "Middle of the chest",
+                        "Right side of his back",
+                        "Left side of his chest"
+                    ],
+                    "type": "GENERAL",
+                    "id": "6e54260f434bfecd1c8bcdb5c57ae7c25d70a229",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/eSNveth.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Messi is the **youngest soccer player** to score a goal in FIFA World Cup",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "77f7e38151387c401e2c2e2ac356da21d243950f",
+                    "correctAnswerIdx": 1,
+                    "image": "TEST"
+                },
+                {
+                    "questionMd": "*True or False*: According to Forbes, Messi is the world's **highest-paid soccer player** in 2020",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "9e61a5667897d98830fc27f6c515bae0f66aa61c",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/fUVy9eb.jpg"
+                },
+                {
+                    "questionMd": "How many tattoos on Messi's body as of 2020?",
+                    "answers": [
+                        "1",
+                        "7",
+                        "11",
+                        "18"
+                    ],
+                    "type": "GENERAL",
+                    "id": "6ac1e8abdd3f628274f19e01a449a2b46a172d4e",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/2cxuiUl.jpg"
+                },
+                {
+                    "questionMd": "Who is Messi married to?",
+                    "answers": [
+                        "Georgina Rodríguez",
+                        "Antonela Roccuzzo",
+                        "Irina Shayk",
+                        "Jennifer Esposito"
+                    ],
+                    "type": "GENERAL",
+                    "id": "c437799b252c58045bf034090ba1de27aafc5165",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/dEbQw4P.jpg"
+                }
+            ]
         },
         {
             "col": "https://i.imgur.com/harVFCSl.png",
-            "name": "🎬 entertainment"
+            "name": "🎬 entertainment",
+            "type": "entertainment",
+            "quiz_role": "shah-rukh-khan",
+            "quiz_front_text": "Only die-hard SRK fans can score full marks in this quiz! Are you one of them?",
+            "quiz_start_image": "https://i.imgur.com/MUIJglz.jpg",
+            "quiz_collection": [
+                {
+                    "questionMd": "What is the character played by Shah Rukh Khan in **My Name Is Khan**?",
+                    "answers": [
+                        "Rizvan Khan",
+                        "Samar Anand",
+                        "Shahrukh Khan",
+                        "Gopal"
+                    ],
+                    "type": "CHARACTER_BY_MOVIE",
+                    "id": "536e75220b7790ac6b23fc42aec5f950ab41a980",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/Xy3VFZo.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: SRK currently holds record of longest running movie of Indian Cinema",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "ead87b126e696eafa334bdeea8ffa9a43840cebf",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/v6BWGQW.jpg"
+                },
+                {
+                    "questionMd": "What is the character played by Shah Rukh Khan in **Zero**?",
+                    "answers": [
+                        "Amarkanth Varma",
+                        "Bauua Singh",
+                        "Ajay Bakshi",
+                        "Raj Mathur"
+                    ],
+                    "type": "CHARACTER_BY_MOVIE",
+                    "id": "dd6c8b2cbbd637a8c26f2fd5d7e789d708e69172",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/nVVdGC1.gif"
+                },
+                {
+                    "questionMd": "In which movie the song **Chammak Chalo** was featured?",
+                    "answers": [
+                        "Dilwale",
+                        "Ra.One",
+                        "Don 2",
+                        "Fan"
+                    ],
+                    "type": "MOVIE_BY_SONG",
+                    "id": "260a0c7f8a5e02cdb953b3f688c8aeff76112189",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/wir06Ys.jpg"
+                },
+                {
+                    "questionMd": "What is Shah Rukh Khan's favorite food?",
+                    "answers": [
+                        "Chicken Biriyani",
+                        "Tandoori Chicken",
+                        "Chocolate Ice Cream",
+                        "Chicken Pizza"
+                    ],
+                    "type": "GENERAL",
+                    "id": "b5a264514f85668db321a2c870610ba040608bf9",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/aFNaG4Z.jpg"
+                },
+                {
+                    "questionMd": "What is IPL team co-owned by Shah Rukh Khan?",
+                    "answers": [
+                        "Mumbai Indians",
+                        "Chennai Super Kings",
+                        "Sunrisers Hyderabad",
+                        "Kolkata Knight Riders"
+                    ],
+                    "type": "GENERAL",
+                    "id": "b12060228ffae322f106d43cb11ffeb149d1a7ff",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/2fsjUQJ.jpg"
+                },
+                {
+                    "questionMd": "Which year was Shah Rukh Khan born?",
+                    "answers": [
+                        "1965",
+                        "1963",
+                        "1968",
+                        "1969"
+                    ],
+                    "type": "GENERAL",
+                    "id": "3d761ab1f0b79d7ec9fe118f3dc7ba38db5feb69",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/AMbM5Cf.jpg"
+                },
+                {
+                    "questionMd": "In which movie the song **Maahi Ve** was featured?",
+                    "answers": [
+                        "Kuch Kuch Hota Hai",
+                        "Chalte Chalte",
+                        "Kabhi Khushi Kabhie Gham",
+                        "Kal Ho Naa Ho"
+                    ],
+                    "type": "MOVIE_BY_SONG",
+                    "id": "cb018a29fe9f63f14ede58aafad723ec9d38f978",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/syzbb3w.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: SRK donated all the prize money KKR won in 2014 to the childrens hospital in Kolkata and Mumbai",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "9c092bfbe8db2be80382d281594ff2341532ae39",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/zfXVh6Y.gif"
+                },
+                {
+                    "questionMd": "In which movie the song **Koi Mil Gaya** was featured?",
+                    "answers": [
+                        "Dilwale Dulhania Le Jayenge",
+                        "Kabhi Khushi Kabhie Gham",
+                        "Kuch Kuch Hota Hai",
+                        "Hum Tumhare Hain Sanam"
+                    ],
+                    "type": "MOVIE_BY_SONG",
+                    "id": "daf2d2d10bb69d6f5f402eef2bcfb1aa29da3324",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/Pj5EVFf.jpg"
+                },
+                {
+                    "questionMd": "What is Shah Rukh Khan's daughter's first name?",
+                    "answers": [
+                        "Suhana",
+                        "Rehana",
+                        "Mumtaz",
+                        "Gauri"
+                    ],
+                    "type": "GENERAL",
+                    "id": "485de49ad7752c7e971b12101f120893d1f9bce2",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/EbmIw0L.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Character played by SRK dies in the movie **Veer-Zaara**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "41438a36be9be1d28345cebeb2f5080873f20b73",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/yRvOoVA.jpg"
+                },
+                {
+                    "questionMd": "Guess the movie  \n![](https://i.imgur.com/xstfrEq.gif)",
+                    "answers": [
+                        "Chennai Express",
+                        "Chak De! India",
+                        "Paheli",
+                        "Dilwale"
+                    ],
+                    "type": "MOVIE_BY_IMAGE",
+                    "id": "3d5005cba944d631b8e8d4b1353db7e6f463db4b",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/Xy3VFZo.jpg"
+                },
+                {
+                    "questionMd": "What is Shah Rukh Khan's sister's first name?",
+                    "answers": [
+                        "Lalarukh",
+                        "Nawaz",
+                        "Shahnaz",
+                        "Mumtaz"
+                    ],
+                    "type": "GENERAL",
+                    "id": "c25e76590777332a9c24a1ab247f66bd1cd2bf6e",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/v6BWGQW.jpg"
+                },
+                {
+                    "questionMd": "Which co-star was SRK's first on screen kiss?",
+                    "answers": [
+                        "Rani Mukerji",
+                        "Kajol",
+                        "Katrina Kaif",
+                        "Kareena Kapoor"
+                    ],
+                    "type": "GENERAL",
+                    "id": "1a8147e4c4b0502a812ad8abaefcb2c1377ac14c",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/wir06Ys.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Shah Rukh Khan received  Best Actor Filmfare Award for **Swades**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "7e099c7ecc8103deb68ca38781c2d44b8d1cd98a",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/aFNaG4Z.jpg"
+                },
+                {
+                    "questionMd": "What is the character played by Shah Rukh Khan in **Chak De! India**?",
+                    "answers": [
+                        "Kabir Khan",
+                        "Devdas Mukherji",
+                        "Yeshwant Rao",
+                        "Dev Saran"
+                    ],
+                    "type": "CHARACTER_BY_MOVIE",
+                    "id": "12ceb17ab79bd54224440e747a123c36c3beb64f",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/2fsjUQJ.jpg"
+                },
+                {
+                    "questionMd": "In which year was **Chennai Express** released?",
+                    "answers": [
+                        "2013",
+                        "2010",
+                        "2016",
+                        "2015"
+                    ],
+                    "type": "YEAR_BY_MOVIE",
+                    "id": "b9fe07e3fbf26e439505994d44764c08c5731884",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/AMbM5Cf.jpg"
+                },
+                {
+                    "questionMd": "In which year was **Don 2** released?",
+                    "answers": [
+                        "2011",
+                        "2009",
+                        "2008",
+                        "2014"
+                    ],
+                    "type": "YEAR_BY_MOVIE",
+                    "id": "e8687405e70d48c37d0b41f41c7dcce5f4365a4d",
+                    "correctAnswerIdx": 0,
+                    "image": "TEST"
+                },
+                {
+                    "questionMd": "Guess the movie  \n![](https://i.imgur.com/zfXVh6Y.gif)",
+                    "answers": [
+                        "Dilwale Dulhania Le Jayenge",
+                        "Kuch Kuch Hota Hai",
+                        "Dil To Pagal Hai",
+                        "Kabhi Khushi Kabhie Gham"
+                    ],
+                    "type": "MOVIE_BY_IMAGE",
+                    "id": "380d39e4f6adb970a0c4b786f929403dd3edd3f6",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/syzbb3w.jpg"
+                },
+                {
+                    "questionMd": "Guess the movie  \n![](https://i.imgur.com/272xTNn.gif)",
+                    "answers": [
+                        "Happy New Year",
+                        "Jab Harry Met Sejal",
+                        "Jab Tak Hai Jaan",
+                        "Chennai Express"
+                    ],
+                    "type": "MOVIE_BY_IMAGE",
+                    "id": "e81d068e4b2c42cc4ccbb8f9369c89ea701ca649",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/zfXVh6Y.gif"
+                },
+                {
+                    "questionMd": "What is Shah Rukh Khan's trademark?",
+                    "answers": [
+                        "Muscular physique",
+                        "Slowly waving both hands in a rising upward motion",
+                        "His baritone voice",
+                        "His intense eyes"
+                    ],
+                    "type": "GENERAL",
+                    "id": "4bb051016224bb9c92420b86852db104310c9fa7",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/Pj5EVFf.jpg"
+                },
+                {
+                    "questionMd": "Guess the movie  \n![](https://i.imgur.com/nVVdGC1.gif)",
+                    "answers": [
+                        "Happy New Year",
+                        "Chennai Express",
+                        "Fan",
+                        "Ra.One"
+                    ],
+                    "type": "MOVIE_BY_IMAGE",
+                    "id": "e78be12210adf5631cafca3b55c3f645113d2ccd",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/EbmIw0L.jpg"
+                },
+                {
+                    "questionMd": "Guess the movie  \n![](https://i.imgur.com/MFQ3jSd.gif)",
+                    "answers": [
+                        "Chalte Chalte",
+                        "Devdas",
+                        "Kal Ho Naa Ho",
+                        "Om Shanthi Om"
+                    ],
+                    "type": "MOVIE_BY_IMAGE",
+                    "id": "b3921be11e317c96fcd98bf408df8fbe7554351f",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/yRvOoVA.jpg"
+                },
+                {
+                    "questionMd": "What is the character played by Shah Rukh Khan in **Kabhi Alvida Naa Kehna**?",
+                    "answers": [
+                        "Amarkanth Varma",
+                        "Rahul Khanna",
+                        "Dev Saran",
+                        "Kishanlal"
+                    ],
+                    "type": "CHARACTER_BY_MOVIE",
+                    "id": "40b911c34a4fccc7ae5204b4bb27c41c79894c15",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/Xy3VFZo.jpg"
+                }
+            ]
         },
         {
             "col": "https://i.imgur.com/PbA8R6Ll.png",
-            "name": "🎬 entertainment"
+            "name": "🎬 entertainment",
+            "type": "entertainment",
+            "quiz_role": "michael-jackson",
+            "quiz_front_text": "How well you know the Legendary King of Pop? Take the quiz to find out",
+            "quiz_start_image": "https://i.imgur.com/CBoOtM3.jpg",
+            "quiz_collection": [
+                {
+                    "questionMd": "*True or False*: Michael Jackson is the **fifth child** of the family",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "07d5513f016ae5763eb6a0335e6ea5cc35f3cae2",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/RFhQ6HE.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: **Lisa Marie Presley** appeared in Michael's music video Thriller",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "ef3959e3da09fe7f307ac0c7fd07798e93576e76",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/SNwrqvi.jpg"
+                },
+                {
+                    "questionMd": "When did Michael Jackson perform the first moonwalk in front of a live audience?",
+                    "answers": [
+                        "1990",
+                        "1985",
+                        "1980",
+                        "1983"
+                    ],
+                    "type": "GENERAL",
+                    "id": "95f815d840e96d08654819ecfdba99454b91833b",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/AIKsRhi.jpg"
+                },
+                {
+                    "questionMd": "Guess the music video  \n![](https://i.imgur.com/RuDYLSB.gif)",
+                    "answers": [
+                        "Smooth Criminal",
+                        "Billie Jean",
+                        "You Rock My World",
+                        "Remember The Time"
+                    ],
+                    "type": "VIDEO_BY_IMAGE",
+                    "id": "f4c1a4d1fc36e1fd8eb2ac3fac9a1c0d03755b34",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/YNDFXCD.jpg"
+                },
+                {
+                    "questionMd": "In which song does Michael sing: *\"See that girl, she knows I'm watching. She likes the way I stare\"*?",
+                    "answers": [
+                        "The Way You Make Me Feel",
+                        "The Girl Is Mine",
+                        "Human Nature",
+                        "She Drives Me Wild"
+                    ],
+                    "type": "SONG_BY_LYRICS",
+                    "id": "99ead4b6c141baf63a8e3b9c89d90d2320f12de4",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/blBPweG.jpg"
+                },
+                {
+                    "questionMd": "What skin condition did Michael suffer from?",
+                    "answers": [
+                        "Eczema",
+                        "Vitiligo",
+                        "Urticaria",
+                        "Rosacea"
+                    ],
+                    "type": "GENERAL",
+                    "id": "0166d8ba734e25f6aa8335707d68c55162bdd410",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/UWdV32X.jpg"
+                },
+                {
+                    "questionMd": "Guess the music video  \n![](https://i.imgur.com/BjDzcj1.gif)",
+                    "answers": [
+                        "Billie Jean",
+                        "Don't Stop 'til You Get Enough",
+                        "Smooth Criminal",
+                        "Black or White"
+                    ],
+                    "type": "VIDEO_BY_IMAGE",
+                    "id": "422b381d4f35a55e9d3cd139e515c9073f70d8c9",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/EeuBQJz.jpg"
+                },
+                {
+                    "questionMd": "Guess the music video  \n![](https://i.imgur.com/jbv9F6j.gif)",
+                    "answers": [
+                        "Earth Song",
+                        "They Don't Care About Us",
+                        "Man In The Mirror",
+                        "Black or White"
+                    ],
+                    "type": "VIDEO_BY_IMAGE",
+                    "id": "f12e96fc674ef1489d5cedac13660f6088f05c44",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/un9oT9s.jpg"
+                },
+                {
+                    "questionMd": "Guess the music video  \n![](https://i.imgur.com/2j1vle8.gif)",
+                    "answers": [
+                        "Human Nature",
+                        "Earth Song",
+                        "Stranger In Moscow",
+                        "You Are Not Alone"
+                    ],
+                    "type": "VIDEO_BY_IMAGE",
+                    "id": "a67aa31a553f8e41cb6949210b17bd9ac3a8df04",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/yEY2RqR.jpg"
+                },
+                {
+                    "questionMd": "What did Michael Jackson dangle over the Berlin hotel balcony?",
+                    "answers": [
+                        "His signature fedora hat",
+                        "His baby Prince Michael Jackson II",
+                        "His write sequin glove",
+                        "His jacket famous for Billie Jean performance"
+                    ],
+                    "type": "GENERAL",
+                    "id": "cfb9ff385d9427490651cd968ffcbfa69b34f95d",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/Z0LNTQd.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Michael Jackson invented the **moonwalk**",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "3ee1363a5d56244562ae15e868303b7fa37bcca6",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/aB6N4EY.jpg"
+                },
+                {
+                    "questionMd": "When is Michael Jackson's birthday?",
+                    "answers": [
+                        "June 25, 1958",
+                        "August 29, 1958",
+                        "August 27, 1959",
+                        "June 29, 1960"
+                    ],
+                    "type": "GENERAL",
+                    "id": "b0d7b7998d6f18acfbb5c16b53cc3f643d27e3f6",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/a0qnKfh.jpg"
+                },
+                {
+                    "questionMd": "What is Michael Jackson's middle name?",
+                    "answers": [
+                        "James",
+                        "Jeremy",
+                        "Joseph",
+                        "Jermaine"
+                    ],
+                    "type": "GENERAL",
+                    "id": "40ab19645560556488201313dfaa61e459f2b317",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/RFhQ6HE.jpg"
+                },
+                {
+                    "questionMd": "In which song does Michael sing: *\"Mother always told me be careful of who you love. And be careful of what you do 'cause the lie becomes the truth\"*?",
+                    "answers": [
+                        "She's Out Of My Life",
+                        "Billie Jean",
+                        "Dangerous",
+                        "Man in the Mirror"
+                    ],
+                    "type": "SONG_BY_LYRICS",
+                    "id": "1b772ae8770cc5165876816fbff02c4a6ff1060f",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/SNwrqvi.jpg"
+                },
+                {
+                    "questionMd": "In which song does Michael sing: *\"She likes the boys in the bands. She knows when they come to town\"*?",
+                    "answers": [
+                        "Liberian Girl",
+                        "Billie Jean",
+                        "Give In To Me",
+                        "Dirty Diana"
+                    ],
+                    "type": "SONG_BY_LYRICS",
+                    "id": "c495946b84fc4c96e00a9838f6d26fae90dccdeb",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/AIKsRhi.jpg"
+                },
+                {
+                    "questionMd": "What is Michael's **best selling** album?",
+                    "answers": [
+                        "Bad",
+                        "Invincible",
+                        "Dangerous",
+                        "Thriller"
+                    ],
+                    "type": "GENERAL",
+                    "id": "85678217ed86ce6a7890b5a9b62b47b313cebe6e",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/YNDFXCD.jpg"
+                },
+                {
+                    "questionMd": "When did Michael Jackson die?",
+                    "answers": [
+                        "June 25, 2008",
+                        "June 25, 2009",
+                        "July 25, 2008",
+                        "July 25, 2009"
+                    ],
+                    "type": "GENERAL",
+                    "id": "c1a38a80690229a244009cfebf9b687b5e6321c8",
+                    "correctAnswerIdx": 1,
+                    "image": "https://i.imgur.com/blBPweG.jpg"
+                },
+                {
+                    "questionMd": "What did Michael Jackson *not* wear in his performance outfit?",
+                    "answers": [
+                        "Aviator sunglasses",
+                        "White sequin glove",
+                        "Multicolored socks",
+                        "Fedora hat"
+                    ],
+                    "type": "GENERAL",
+                    "id": "bdf92c9194629b75c2313491a45f37abf84cc69f",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/UWdV32X.jpg"
+                },
+                {
+                    "questionMd": "Which Michael Jackson album features the song **\"Liberian Girl\"**?",
+                    "answers": [
+                        "Bad",
+                        "Thriller",
+                        "Off the Wall",
+                        "Dangerous"
+                    ],
+                    "type": "GENERAL",
+                    "id": "e0c22693e28e0672b9931dd4fa46e1deeccd82aa",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/EeuBQJz.jpg"
+                },
+                {
+                    "questionMd": "In which song does Michael sing: *\"Touch me and I feel on fire. Ain't nothin' like a love desire\"*?",
+                    "answers": [
+                        "Don’t Stop ’til You Get Enough",
+                        "I Just Can't Stop Loving You",
+                        "Heartbreaker",
+                        "Give In To Me"
+                    ],
+                    "type": "SONG_BY_LYRICS",
+                    "id": "b3b74f7f7f8785fbd96780a992d35f0a72fee718",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/un9oT9s.jpg"
+                },
+                {
+                    "questionMd": "What concert tour was Michael rehearsing for when he died?",
+                    "answers": [
+                        "HIStory World Tour",
+                        "30th Anniversary Special Concert",
+                        "Dangerous World Tour",
+                        "This Is It"
+                    ],
+                    "type": "GENERAL",
+                    "id": "2f394b6cabbc92de05085bc52f43bbf3531e50dd",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/yEY2RqR.jpg"
+                },
+                {
+                    "questionMd": "*True or False*: Michael Jackson holds the world record for winning **most Grammy awards** in one night",
+                    "answers": [
+                        "True",
+                        "False"
+                    ],
+                    "type": "TOF",
+                    "id": "aec6889fd434d85249bece5eed0088c3c1905102",
+                    "correctAnswerIdx": 0,
+                    "image": "https://i.imgur.com/Z0LNTQd.jpg"
+                },
+                {
+                    "questionMd": "What is the **most expensive** music video by Michael Jackson?",
+                    "answers": [
+                        "Black or White",
+                        "Bad",
+                        "Scream",
+                        "Thriller"
+                    ],
+                    "type": "GENERAL",
+                    "id": "9e93c564f0f44428bfeaa426b290669eb951654c",
+                    "correctAnswerIdx": 2,
+                    "image": "https://i.imgur.com/aB6N4EY.jpg"
+                },
+                {
+                    "questionMd": "Guess the music video  \n![](https://i.imgur.com/D6xxaHc.gif)",
+                    "answers": [
+                        "Dirty Diana",
+                        "Billie Jean",
+                        "Scream",
+                        "Give In To Me"
+                    ],
+                    "type": "VIDEO_BY_IMAGE",
+                    "id": "10b3574a3a92718737cded5e830ff0048c22b03e",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/a0qnKfh.jpg"
+                },
+                {
+                    "questionMd": "Who is *not* a sibling of Michael Jackson?",
+                    "answers": [
+                        "Janet",
+                        "Rebbie",
+                        "La Toya",
+                        "Katherine"
+                    ],
+                    "type": "GENERAL",
+                    "id": "310d40879f70db0c5eb2ceef0d5fa61cb87c22b1",
+                    "correctAnswerIdx": 3,
+                    "image": "https://i.imgur.com/RFhQ6HE.jpg"
+                }
+            ]
         }
     ]
 }
