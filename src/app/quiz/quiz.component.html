@@ -8,7 +8,7 @@
                 <h2 class="quizTagline">Everyone loves Ronaldo! But can you outscore #CR7 fans in this quiz?</h2>
                 <button class="startBtn" (click)="startQuiz()">Start the Quiz</button>
             </div>
-  
+
             <!-- <p class="quizLoading"></p> -->
             <div class="quiz-collection" *ngIf="quizEnabled">
                 <h2 class="questionText">
@@ -16,33 +16,33 @@
                 </h2>
                 <div class="questionScore">
                     <ng-container *ngIf="maxSeconds !== 0 && countSecondIncreamnet == 0 || countSecondIncreamnet > 0">
-                        <span class="time low" id="time" [ngClass]="maxSeconds == 1 && !countingState ? 'below-2': ''">⏰ {{ countingState == false ? maxSeconds : countSecondIncreamnet }} Sec</span>
+                        <span class="time low" id="time" [ngClass]="maxSeconds == 1 && !countingState ? 'below-2': ''">⏰
+                            {{ countingState == false ? maxSeconds : countSecondIncreamnet }} Sec</span>
                     </ng-container>
 
                     <ng-container *ngIf="maxSeconds == 0 && countSecondIncreamnet == 0">
                         <span class="time-out" id="time">⏰ Time out</span>
                     </ng-container>
 
-                    <span class="points">🏆 {{ countingState == false ? maxMicroSeconds : countMicroSecondIncreamnet }}</span>
+                    <span class="points">🏆 {{ countingState == false ? maxMicroSeconds : countMicroSecondIncreamnet
+                        }}</span>
                 </div>
                 <ul class="questionOptions" [class.questionDisabled]="nextButtonEnabled"
-                *ngFor="let answersCol of getroleDetails.quiz_collection[quizIndex].answers;let i = index">
-                    <li class="questionOption" (click)="selectedAnswer(i)"
-                    [ngClass]="{ 'rigth-answer' : selectedRigthAnswer && selectedIndex == i , 
+                    *ngFor="let answersCol of getroleDetails.quiz_collection[quizIndex].answers;let i = index">
+                    <li class="questionOption" (click)="selectedAnswer(i)" [ngClass]="{ 'rigth-answer' : selectedRigthAnswer && selectedIndex == i , 
                     'wrong-answer' : !selectedRigthAnswer && selectedIndex == i  }"
-                    [class.disabled]="nextButtonEnabled"
-                    > {{ answersCol }}  </li>
+                        [class.disabled]="nextButtonEnabled"> {{ answersCol }} </li>
                 </ul>
-                <button class="nextBtn questionOption moveUp-enter-done"*ngIf="nextButtonEnabled">
+                <button class="nextBtn questionOption moveUp-enter-done" *ngIf="nextButtonEnabled">
                     <div style="text-align: center; flex: 1 1 0%;" (click)="nextQuiz()">Next</div>
                 </button>
-            </div>    
+            </div>
         </div>
     </section>
 </div>
 
 <div class="score-content" *ngIf="scorePageEnabled">
-    <img [src]="getroleDetails?.quiz_start_image" alt="" >
+    <img [src]="getroleDetails?.quiz_start_image" alt="">
     <div class="quiz-complete">
         <div class="quiz-score">
             <div class="score-text">
@@ -62,8 +62,23 @@
         </div>
         <div class="more-quiz">
             <p> Share your result: </p>
-            <button class="retake-quiz-btn" id="retakeQuiz" title="⟲ Retake Quiz" (click)="retakeQuiz()"> ⟲ Retake Quiz </button> <br>
+            <button class="retake-quiz-btn" id="retakeQuiz" title="⟲ Retake Quiz" (click)="retakeQuiz()"> ⟲ Retake Quiz
+            </button> <br>
             <button class="more-quiz-btn" id="moreQuiz" title="More Quizzes >"> More Quizzes > </button>
         </div>
     </div>
 </div>
+
+
+<!-- <svg class="rc-progress-circle" viewBox="0 0 100 100" style="width: 30px; height: 30px;">
+    <path class="rc-progress-circle-trail" d="M 50,50 m 0,-25
+    a 25,25 0 1 1 0,50
+    a 25,25 0 1 1 0,-50" stroke="#999999" stroke-linecap="butt" stroke-width="1" fill-opacity="0"
+        style="stroke: rgb(153, 153, 153); stroke-dasharray: 157.08px, 157.08px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s ease 0s, stroke-dasharray 0.3s ease 0s, stroke 0.3s ease 0s, stroke-width 0.06s ease 0.3s;">
+    </path>
+    <path class="rc-progress-circle-path" d="M 50,50 m 0,-25
+    a 25,25 0 1 1 0,50
+    a 25,25 0 1 1 0,-50" stroke="" stroke-linecap="butt" stroke-width="50" opacity="1" fill-opacity="0"
+        style="stroke: rgb(255, 255, 0); stroke-dasharray: 47.9925px, 157.08px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0s ease 0s, stroke-dasharray 0s ease 0s, stroke ease 0s, stroke-width ease 0.3s;">
+    </path>
+</svg> -->
